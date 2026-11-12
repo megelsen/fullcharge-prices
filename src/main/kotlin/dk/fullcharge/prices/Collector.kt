@@ -70,6 +70,10 @@ fun main(args: Array<String>) = runBlocking {
         println("%-14s %-8s sites=%6d dcPriced=%6d %s".format(r.source.key, r.status, r.sites.size, dcPriced(r.sites), r.error ?: ""))
     }
     Publisher.write(siteDir, reports, now)
+    // Home charging (0.17.2): Energi Data Service mirrored to v1/home/ (phones that reject its TLS chain).
+    runCatching { HomeMirror.write(siteDir, stateDir, http, now) }
+        .onSuccess { lines -> lines.forEach(::println) }
+        .onFailure { println("home: ${it.javaClass.simpleName}: ${it.message}") }
     if (reports.none { it.status == "ok" || it.status == "cached" }) throw IllegalStateException("no source delivered data")
 }
 

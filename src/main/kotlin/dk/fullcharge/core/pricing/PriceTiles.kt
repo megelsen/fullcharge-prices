@@ -41,6 +41,19 @@ object PriceTiles {
     const val META_URL = BASE_URL + "meta.json"
     fun tileUrl(key: String) = "${BASE_URL}tiles/$key.json"
 
+    /**
+     * Home-charging data mirrored hourly from Energi Data Service by the same Action (0.17.2), in its
+     * own response format (`{"records":[…]}`): some phones reject api.energidataservice.dk's TLS
+     * chain. Spot: 8 days back to tomorrow; tariffs: 400 days back.
+     */
+    object Home {
+        const val BASE = BASE_URL + "home/"
+        fun spotUrl(area: String) = "${BASE}spot-$area.json"
+        const val ENERGINET_URL = BASE + "tariffs-energinet.json"
+        const val COMPANIES_URL = BASE + "companies.json"
+        fun gridUrl(gln: String) = "${BASE}tariffs-grid-$gln.json"
+    }
+
     /** Zone in which tile windows / slot days are read (all sources so far keep CET/CEST; Finland is shifted). */
     val ZONE: java.time.ZoneId = java.time.ZoneId.of("Europe/Copenhagen")
 
