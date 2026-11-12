@@ -36,10 +36,27 @@ import kotlin.math.floor
 object PriceTiles {
     const val VERSION = 1
     const val TILE_DEG = 0.25
+    /** Published by the GitHub Action of github.com/megelsen/fullcharge-prices. */
+    const val BASE_URL = "https://megelsen.github.io/fullcharge-prices/v1/"
+    const val META_URL = BASE_URL + "meta.json"
+    fun tileUrl(key: String) = "${BASE_URL}tiles/$key.json"
+
+    /** Zone in which tile windows / slot days are read (all sources so far keep CET/CEST; Finland is shifted). */
+    val ZONE: java.time.ZoneId = java.time.ZoneId.of("Europe/Copenhagen")
 
     private val json = Json { ignoreUnknownKeys = true }
 
     fun tileKey(latDeg: Double, lonDeg: Double): String = "${floor(latDeg / TILE_DEG).toInt()}_${floor(lonDeg / TILE_DEG).toInt()}"
+
+    /** Keys of the tiles within [radiusM] of the point (the point's own tile first). */
+    fun tilesNear(latDeg: Double, lonDeg: Double, radiusM: Double): List<String> {
+        val dLat = radiusM / 111_320.0
+        val dLon = radiusM / (111_320.0 * kotlin.math.cos(Math.toRadians(latDeg)).coerceAtLeast(0.01))
+        val keys = LinkedHashSet<String>()
+        keys += tileKey(latDeg, lonDeg)
+        for (la in listOf(latDeg - dLat, latDeg + dLat)) for (lo in listOf(lonDeg - dLon, lonDeg + dLon)) keys += tileKey(la, lo)
+        return keys.toList()
+    }
 
     // ------------------------------------------------------------------ encode
 
@@ -74,7 +91,7 @@ object PriceTiles {
     private fun encodePrice(e: PriceElement): JsonObject = buildJsonObject {
         put("t", when (e.type) { PriceType.PER_KWH -> "kwh"; PriceType.PER_MINUTE -> "min"; PriceType.FLAT -> "flat" })
         put("v", e.valueInclVat)
-        put("cur", e.currency)
+        put("cur", e.currency.uppercase()) // some feeds write "dkk"
         if (e.fromMinute != 0) put("from", e.fromMinute)
         e.dayLocal?.let { put("day", it.toString()) }
         if (e.windowsMinOfDay.isNotEmpty()) put("win", buildJsonArray {
@@ -117,7 +134,7 @@ object PriceTiles {
         return PriceElement(
             type = type,
             valueInclVat = p.dbl("v") ?: return null,
-            currency = p.str("cur") ?: return null,
+            currency = p.str("cur")?.uppercase() ?: return null,
             dayLocal = p.str("day")?.let { runCatching { LocalDate.parse(it) }.getOrNull() },
             windowsMinOfDay = (p["win"] as? JsonArray).orEmpty().mapNotNull { w ->
                 val a = w as? JsonArray ?: return@mapNotNull null

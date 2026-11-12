@@ -48,6 +48,9 @@ class CollectorTest {
         assertTrue(text.contains("\"win\":[[1140,0]]"))
         assertEquals(listOf(site), PriceTiles.decodeTile(text))
         assertNull(PriceTiles.decodeTile("""{"v":2,"sites":[]}"""))
+        // Currency codes are always upper case (a Danish feed writes "dkk").
+        val lower = site.copy(chargePoints = listOf(site.chargePoints[0].copy(prices = listOf(e.copy(currency = "dkk")))))
+        assertEquals("DKK", PriceTiles.decodeTile(PriceTiles.encodeTile("t", "g", listOf(lower)))!!.single().chargePoints[0].prices[0].currency)
         assertEquals("220_36", PriceTiles.tileKey(55.0, 9.0))
     }
 
