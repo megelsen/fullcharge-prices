@@ -1,0 +1,148 @@
+{
+ "schemaVersion": 2,
+ "generatedAt": "2026-11-12T11:04:12.681Z",
+ "currency": "CHF",
+ "coverage": {
+  "federalEvses": 20190,
+  "pricedEvses": 11196,
+  "share": 0.555
+ },
+ "sources": {
+  "chargeprice": {
+   "title": "Swiss eMobility Charging Price Map",
+   "author": "Swiss eMobility",
+   "url": "https://opendata.swiss/en/dataset/ladepreiskarte-swiss-emobility",
+   "license": "O-By-Ask; attribution required",
+   "status": "fresh",
+   "tariffs": 9010,
+   "evses": 7276,
+   "verifiedAt": "2026-11-12T11:04:12.681Z"
+  },
+  "ecarup": {
+   "title": "eCarUp public station map",
+   "author": "eCarUp",
+   "url": "https://www.ecarup.com/",
+   "status": "fresh",
+   "tariffs": 3193,
+   "evses": 3193,
+   "verifiedAt": "2026-11-12T11:04:12.681Z"
+  },
+  "fastned": {
+   "title": "Fastned published tariffs",
+   "author": "Fastned",
+   "url": "https://www.fastnedcharging.com/en/charging/tariffs",
+   "status": "fresh",
+   "tariffs": 6,
+   "evses": 6,
+   "verifiedAt": "2026-11-12T11:04:12.681Z"
+  },
+  "migrol": {
+   "title": "Migrol M-Charge published tariffs",
+   "author": "Migrol",
+   "url": "https://www.migrol.ch/de/rund-ums-fahrzeug/e-ladestationen/oeffentliche-ladestationen/",
+   "status": "fresh",
+   "tariffs": 721,
+   "evses": 721,
+   "verifiedAt": "2026-11-12T11:04:12.681Z"
+  }
+ },
+ "tariffs": [
+  {
+   "id": "19500c89-6112-460b-9cca-5d761db65511",
+   "evseId": "CH*AVI*E10817",
+   "source": "chargeprice",
+   "payment": "direct",
+   "name": "AVIA VOLT",
+   "components": [
+    {
+     "type": "ENERGY",
+     "price": 0.5,
+     "step": 10
+    },
+    {
+     "type": "FLAT",
+     "price": 1.5,
+     "step": 0.01
+    },
+    {
+     "type": "TIME",
+     "price": 0.05,
+     "step": 0.6
+    }
+   ],
+   "verifiedAt": "2026-11-12T11:04:12.681Z"
+  },
+  {
+   "id": "ecarup:CH*ECUE22BXYH5N8ANK24P3TAUUWXZ2MW",
+   "evseId": "CH*ECUE22BXYH5N8ANK24P3TAUUWXZ2MW",
+   "source": "ecarup",
+   "payment": "direct",
+   "name": "eCarUp QR payment",
+   "components": [
+    {
+     "type": "ENERGY",
+     "price": 0.45,
+     "step": 1
+    },
+    {
+     "type": "TIME",
+     "price": 3,
+     "step": 60,
+     "from": 14400
+    }
+   ],
+   "verifiedAt": "2026-11-12T11:04:12.681Z"
+  },
+  {
+   "id": "1d7d0292-de82-43b1-84bb-da712728250a",
+   "evseId": "CH*ELC*E23YQ",
+   "source": "chargeprice",
+   "payment": "app",
+   "name": "Electra app",
+   "components": [
+    {
+     "type": "ENERGY",
+     "price": 0.64,
+     "step": 1
+    }
+   ],
+   "verifiedAt": "2026-11-12T11:04:12.681Z"
+  },
+  {
+   "id": "8bb6b63d-db76-4b15-a29d-6c24a91712a2",
+   "evseId": "CH*GFT*E*Aaron*1",
+   "source": "chargeprice",
+   "payment": "direct",
+   "name": "GOFAST Mastercard / VISA",
+   "components": [
+    {
+     "type": "ENERGY",
+     "price": 0.7,
+     "step": 1
+    },
+    {
+     "type": "TIME",
+     "price": 0.25,
+     "step": 1,
+     "from": 3600
+    }
+   ],
+   "verifiedAt": "2026-11-12T11:04:12.681Z"
+  },
+  {
+   "id": "migrol:CH*MIG*E*246819",
+   "evseId": "CH*MIG*E*246819",
+   "source": "migrol",
+   "payment": "direct",
+   "name": "M-Charge without account",
+   "components": [
+    {
+     "type": "ENERGY",
+     "price": 0.55,
+     "step": 1
+    }
+   ],
+   "verifiedAt": "2026-11-12T11:04:12.681Z"
+  }
+ ]
+}

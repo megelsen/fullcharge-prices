@@ -1,0 +1,18 @@
+{"lang":"en","publicationTime":"2026-11-12T08:00:00Z","publicationCreator":{"country":"DK","nationalIdentifier":"MONTA"},
+ "energyInfrastructureTable":[{"idG":"monta-dk","versionG":"1","energyInfrastructureSite":[
+  {"idG":"site-77","versionG":"1","name":{"values":[{"lang":"da","value":"Norlys Hasselager"}]},
+   "locationReference":{"locPointLocation":{"pointByCoordinates":{"pointCoordinates":{"latitude":56.1,"longitude":10.1}},
+     "locLocationExtensionG":{"FacilityLocation":{"address":{"countryCode":"DK","city":{"values":[{"lang":"da","value":"Viby J"}]},
+       "addressLine":[{"order":0,"text":{"values":[{"lang":"da","value":"Hasselager Allé 1"}]}}]},"timeZone":"Europe/Copenhagen"}}}},
+   "operator":{"afacAnOrganisation":{"name":{"values":[{"lang":"da","value":"Norlys"}]}}},
+   "energyInfrastructureStation":[{"idG":"st-1","versionG":"1","totalMaximumPower":300000,"numberOfRefillPoints":2,"refillPoint":[
+     {"idG":"DK*MON*E100001","versionG":"1","currentType":{"value":"dc"},
+      "externalIdentifier":[{"identifier":"DK*MON*E100001","typeOfIdentifier":{"value":"extendedG","extendedValueG":"evseId"}}],
+      "connector":[{"connectorType":{"value":"iec62196T2Combo"},"maxPowerAtSocket":150000}],
+      "electricEnergy":[{"energyRate":[{"idG":"r1","ratePolicy":{"value":"adHoc"},"applicableCurrency":["DKK"],"energyPrice":[
+        {"priceType":{"value":"pricePerKWh"},"value":3.16,"taxIncluded":false,"taxRate":25},
+        {"priceType":{"value":"basePrice"},"value":4.0,"taxIncluded":true,"taxRate":25},
+        {"priceType":{"value":"pricePerMinute"},"value":1.0,"taxIncluded":true,"taxRate":25,"timeBasedApplicability":{"fromMinute":60},"additionalInformation":{"values":[{"lang":"en","value":"Idle fee"}]}}]}]}]},
+     {"idG":"DK*MON*E100002","versionG":"1","currentType":{"value":"ac"},
+      "connector":[{"connectorType":{"value":"iec62196T2"},"maxPowerAtSocket":22000}]}]}]}]}],
+ "meta":{"page":1,"perPage":1000,"total":1}}

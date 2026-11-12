@@ -1,0 +1,486 @@
+{
+ "EVSEData": [
+  {
+   "EVSEDataRecord": [
+    {
+     "Accessibility": "Free publicly accessible",
+     "AdditionalInfo": null,
+     "Address": {
+      "City": "Risch-Rotkreuz",
+      "Country": "CHE",
+      "HouseNum": "",
+      "PostalCode": "6343",
+      "Street": "Riedstrasse 18",
+      "ParkingFacility": false,
+      "Floor": null,
+      "Region": null,
+      "ParkingSpot": null
+     },
+     "AuthenticationModes": [
+      "REMOTE",
+      "NFC RFID Classic",
+      "NFC RFID DESFire"
+     ],
+     "ChargingFacilities": [
+      {
+       "Amperage": 32.0,
+       "Voltage": 230.0,
+       "power": 22.0,
+       "powertype": "AC_3_PHASE"
+      }
+     ],
+     "ChargingStationId": "CH*ECUE22BXYH5N8ANK24P3TAUUWXZ2MW",
+     "DynamicInfoAvailable": "auto",
+     "EvseID": "CH*ECUE22BXYH5N8ANK24P3TAUUWXZ2MW",
+     "GeoCoordinates": {
+      "Google": "47.146335 8.426635"
+     },
+     "HotlinePhoneNumber": "+41415101717",
+     "IsHubjectCompatible": true,
+     "IsOpen24Hours": true,
+     "MaxCapacity": 0,
+     "PaymentOptions": [
+      "Direct"
+     ],
+     "Plugs": [
+      "Type 2 Outlet"
+     ],
+     "ValueAddedServices": [
+      "DynamicPricing"
+     ],
+     "deltaType": "insert",
+     "ChargingStationNames": [
+      {
+       "lang": "en",
+       "value": "smart-me / eCarUp Besucher PP Li-Re"
+      },
+      {
+       "lang": "de",
+       "value": "smart-me / eCarUp Besucher PP Li-Re"
+      }
+     ],
+     "DynamicPowerLevel": false,
+     "RenewableEnergy": false,
+     "CalibrationLawDataAvailability": "Not Available",
+     "AccessibilityLocation": "OnStreet",
+     "ClearinghouseID": null,
+     "OpeningTimes": null,
+     "GeoChargingPointEntrance": {
+      "Google": "None None"
+     },
+     "ChargingStationLocationReference": null,
+     "EnergySource": null,
+     "EnvironmentalImpact": null,
+     "LocationImage": null,
+     "SuboperatorName": null,
+     "ChargingPoolID": null,
+     "HardwareManufacturer": null,
+     "HubOperatorID": null
+    }
+   ],
+   "OperatorID": "CH*ECU",
+   "OperatorName": "eCarUp"
+  },
+  {
+   "EVSEDataRecord": [
+    {
+     "Accessibility": "Paying publicly accessible",
+     "AdditionalInfo": null,
+     "Address": {
+      "City": "Zürich",
+      "Country": "CHE",
+      "HouseNum": "152",
+      "PostalCode": "8005",
+      "Street": "Limmatplatz",
+      "Floor": null,
+      "Region": null,
+      "ParkingSpot": null,
+      "ParkingFacility": null
+     },
+     "AuthenticationModes": [
+      "REMOTE",
+      "Direct Payment",
+      "NFC RFID Classic",
+      "NFC RFID DESFire"
+     ],
+     "CalibrationLawDataAvailability": "Not Available",
+     "ChargingFacilities": [
+      {
+       "ChargingModes": [
+        "Mode_4"
+       ],
+       "power": 150,
+       "powertype": "DC"
+      }
+     ],
+     "ChargingPoolId": "CH*MIG*P*1040",
+     "ChargingStationId": "CH*MIG*P*990",
+     "ChargingStationNames": [
+      {
+       "lang": "de",
+       "value": "Migros | Limmatplatz 11"
+      },
+      {
+       "lang": "en",
+       "value": "Migros | Limmatplatz 11"
+      }
+     ],
+     "DynamicInfoAvailable": "auto",
+     "EvseID": "CH*MIG*E*246819",
+     "GeoChargingPointEntrance": {
+      "DecimalDegree": {
+       "Latitude": "47.385679",
+       "Longitude": "8.530836"
+      }
+     },
+     "GeoCoordinates": {
+      "Google": "47.385527 8.531174"
+     },
+     "HardwareManufacturer": "EVTEC",
+     "HotlinePhoneNumber": "+41444951616",
+     "IsHubjectCompatible": true,
+     "IsOpen24Hours": false,
+     "OpeningTimes": [
+      {
+       "Period": [
+        {
+         "begin": "05:00",
+         "end": "20:00"
+        }
+       ],
+       "on": "Saturday"
+      },
+      {
+       "Period": [
+        {
+         "begin": "06:00",
+         "end": "21:00"
+        }
+       ],
+       "on": "Friday"
+      },
+      {
+       "Period": [
+        {
+         "begin": "06:00",
+         "end": "21:00"
+        }
+       ],
+       "on": "Thursday"
+      },
+      {
+       "Period": [
+        {
+         "begin": "06:00",
+         "end": "21:00"
+        }
+       ],
+       "on": "Wednesday"
+      },
+      {
+       "Period": [
+        {
+         "begin": "06:00",
+         "end": "21:00"
+        }
+       ],
+       "on": "Tuesday"
+      },
+      {
+       "Period": [
+        {
+         "begin": "06:00",
+         "end": "21:00"
+        }
+       ],
+       "on": "Monday"
+      }
+     ],
+     "PaymentOptions": [
+      "Contract"
+     ],
+     "Plugs": [
+      "CCS Combo 2 Plug (Cable Attached)"
+     ],
+     "RenewableEnergy": false,
+     "ValueAddedServices": [],
+     "ClearinghouseID": null,
+     "ChargingStationLocationReference": null,
+     "EnergySource": null,
+     "EnvironmentalImpact": null,
+     "LocationImage": null,
+     "SuboperatorName": null,
+     "MaxCapacity": null,
+     "ChargingPoolID": null,
+     "DynamicPowerLevel": null,
+     "HubOperatorID": null,
+     "AccessibilityLocation": null
+    }
+   ],
+   "OperatorID": "CH*MIG",
+   "OperatorName": "M-Charge"
+  },
+  {
+   "EVSEDataRecord": [
+    {
+     "Accessibility": "Restricted access",
+     "Address": {
+      "City": "Honau",
+      "Country": "CHE",
+      "PostalCode": "6038",
+      "Street": "Gwärbstrasse 4",
+      "Floor": null,
+      "Region": null,
+      "ParkingSpot": null,
+      "ParkingFacility": null
+     },
+     "AuthenticationModes": [],
+     "Plugs": [
+      "CCS Combo 2 Plug (Cable Attached)"
+     ],
+     "ChargingFacilities": [
+      {
+       "power": 300,
+       "powertype": "DC"
+      }
+     ],
+     "ChargingStationId": "0a4b7dc0-aa61-11f0-b2b0-42010aa40fc4",
+     "ChargingStationNames": [
+      {
+       "lang": "en",
+       "value": "GOFAST Honau ALDI"
+      }
+     ],
+     "DynamicInfoAvailable": "true",
+     "EvseID": "CH*GFT*E*Aaron*1",
+     "GeoCoordinates": {
+      "Google": "47.13154924 8.40392241"
+     },
+     "HotlinePhoneNumber": "+41800463111",
+     "IsHubjectCompatible": false,
+     "IsOpen24Hours": true,
+     "SubOperatorName": "GOFAST",
+     "RenewableEnergy": false,
+     "CalibrationLawDataAvailability": "Not Available",
+     "ClearinghouseID": null,
+     "OpeningTimes": null,
+     "GeoChargingPointEntrance": {
+      "Google": "None None"
+     },
+     "ChargingStationLocationReference": null,
+     "EnergySource": null,
+     "EnvironmentalImpact": null,
+     "LocationImage": null,
+     "SuboperatorName": null,
+     "MaxCapacity": null,
+     "AdditionalInfo": null,
+     "ChargingPoolID": null,
+     "DynamicPowerLevel": null,
+     "HardwareManufacturer": null,
+     "HubOperatorID": null,
+     "AccessibilityLocation": null
+    }
+   ],
+   "OperatorID": "CH*GFT",
+   "OperatorName": "GoFast"
+  },
+  {
+   "EVSEDataRecord": [
+    {
+     "Accessibility": "Restricted access",
+     "Address": {
+      "City": "Zürich",
+      "Country": "CHE",
+      "PostalCode": "8008",
+      "Street": "Mühlebachstrasse 23 / 25",
+      "Floor": null,
+      "Region": null,
+      "ParkingSpot": null,
+      "ParkingFacility": null
+     },
+     "AuthenticationModes": [],
+     "Plugs": [
+      "CCS Combo 2 Plug (Cable Attached)"
+     ],
+     "ChargingFacilities": [
+      {
+       "power": 300,
+       "powertype": "DC"
+      }
+     ],
+     "ChargingStationId": "cfb5fcce-5404-11f0-96b5-42010aa40043",
+     "ChargingStationNames": [
+      {
+       "lang": "en",
+       "value": "Electra Zürich - Mühlebachstrasse"
+      }
+     ],
+     "DynamicInfoAvailable": "true",
+     "EvseID": "CH*ELC*E23YQ",
+     "GeoCoordinates": {
+      "Google": "47.364842 8.550477"
+     },
+     "HotlinePhoneNumber": "+41435083555",
+     "IsHubjectCompatible": false,
+     "IsOpen24Hours": false,
+     "SubOperatorName": "",
+     "RenewableEnergy": false,
+     "CalibrationLawDataAvailability": "Not Available",
+     "ClearinghouseID": null,
+     "OpeningTimes": null,
+     "GeoChargingPointEntrance": {
+      "Google": "None None"
+     },
+     "ChargingStationLocationReference": null,
+     "EnergySource": null,
+     "EnvironmentalImpact": null,
+     "LocationImage": null,
+     "SuboperatorName": null,
+     "MaxCapacity": null,
+     "AdditionalInfo": null,
+     "ChargingPoolID": null,
+     "DynamicPowerLevel": null,
+     "HardwareManufacturer": null,
+     "HubOperatorID": null,
+     "AccessibilityLocation": null
+    }
+   ],
+   "OperatorID": "CH*ELECTRA",
+   "OperatorName": "Electra"
+  },
+  {
+   "EVSEDataRecord": [
+    {
+     "Accessibility": "Restricted access",
+     "Address": {
+      "City": "Samnaun",
+      "Country": "CHE",
+      "PostalCode": "7562",
+      "Street": "Schulstrasse 16",
+      "Floor": null,
+      "Region": null,
+      "ParkingSpot": null,
+      "ParkingFacility": null
+     },
+     "AuthenticationModes": [],
+     "Plugs": [
+      "Type 2 Outlet"
+     ],
+     "ChargingFacilities": [
+      {
+       "power": 11,
+       "powertype": "AC_3_PHASE"
+      }
+     ],
+     "ChargingStationId": "091d8f72-df2e-11f0-91ff-42010aa400b8",
+     "ChargingStationNames": [
+      {
+       "lang": "en",
+       "value": "AVIA VOLT Suisse AG Alpenquell Samnaun AC"
+      }
+     ],
+     "DynamicInfoAvailable": "true",
+     "EvseID": "CH*AVI*E10817",
+     "GeoCoordinates": {
+      "Google": "46.95994 10.40177"
+     },
+     "HotlinePhoneNumber": "+41413686900",
+     "IsHubjectCompatible": false,
+     "IsOpen24Hours": true,
+     "SubOperatorName": "",
+     "RenewableEnergy": false,
+     "CalibrationLawDataAvailability": "Not Available",
+     "ClearinghouseID": null,
+     "OpeningTimes": null,
+     "GeoChargingPointEntrance": {
+      "Google": "None None"
+     },
+     "ChargingStationLocationReference": null,
+     "EnergySource": null,
+     "EnvironmentalImpact": null,
+     "LocationImage": null,
+     "SuboperatorName": null,
+     "MaxCapacity": null,
+     "AdditionalInfo": null,
+     "ChargingPoolID": null,
+     "DynamicPowerLevel": null,
+     "HardwareManufacturer": null,
+     "HubOperatorID": null,
+     "AccessibilityLocation": null
+    }
+   ],
+   "OperatorID": "CH*AVI",
+   "OperatorName": "AVIA VOLT Suisse AG"
+  },
+  {
+   "EVSEDataRecord": [
+    {
+     "EvseID": "CH*IOY*E115101",
+     "HotlinePhoneNumber": "+41435501449",
+     "IsOpen24Hours": false,
+     "IsHubjectCompatible": false,
+     "DynamicInfoAvailable": "true",
+     "Accessibility": "Restricted access",
+     "Address": {
+      "City": "Bellinzona",
+      "Country": "CHE",
+      "PostalCode": "6503",
+      "Street": "A2 Direzione Chiasso",
+      "Floor": null,
+      "Region": null,
+      "ParkingSpot": null,
+      "ParkingFacility": null
+     },
+     "GeoCoordinates": {
+      "Google": "46.2095364 9.02671623"
+     },
+     "PaymentOptions": [
+      "Direct"
+     ],
+     "Plugs": [
+      "CCS Combo 2 Plug (Cable Attached)"
+     ],
+     "ChargingFacilities": [
+      {
+       "power": 350,
+       "powertype": "DC"
+      }
+     ],
+     "AuthenticationModes": [],
+     "ValueAddedServices": [
+      "None"
+     ],
+     "ChargingStationNames": [
+      {
+       "lang": "en",
+       "value": "IONITY GmbH IONITY Bellinzona Nord"
+      }
+     ],
+     "ChargingStationId": "d74b4b8c-1d24-11ef-8ab6-42010aa40043",
+     "RenewableEnergy": false,
+     "CalibrationLawDataAvailability": "Not Available",
+     "SubOperatorName": "",
+     "ClearinghouseID": null,
+     "OpeningTimes": null,
+     "GeoChargingPointEntrance": {
+      "Google": "None None"
+     },
+     "ChargingStationLocationReference": null,
+     "EnergySource": null,
+     "EnvironmentalImpact": null,
+     "LocationImage": null,
+     "SuboperatorName": null,
+     "MaxCapacity": null,
+     "AdditionalInfo": null,
+     "ChargingPoolID": null,
+     "DynamicPowerLevel": null,
+     "HardwareManufacturer": null,
+     "HubOperatorID": null,
+     "AccessibilityLocation": null
+    }
+   ],
+   "OperatorID": "CH*ION",
+   "OperatorName": "IONITY"
+  }
+ ]
+}
