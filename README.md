@@ -18,6 +18,7 @@ planner. No accounts, no personal data.
 | `de-ladekrone` | DE | Mobilithek AFIR offers via [ladekrone](https://github.com/uekala/ladekrone) (MIT) | CC0 / CC BY 4.0 (EnBW mobility+, Eco-Movement B.V., GLS Mobility) / DL-DE | 3 h |
 | `fi-digitraffic` | FI | Fintraffic Digitraffic AFIR (tariffs + locations, OCPI-shaped; `AD_HOC_PAYMENT` tariffs only) | CC BY 4.0 — "Source: Fintraffic / digitraffic.fi, license CC 4.0 BY" | hourly |
 | `nl-ndw` | NL | NDW DOT-NL national OCPI 2.2.1 locations + tariffs (ad-hoc = `AD_HOC_PAYMENT`, else the untyped default tariff, else the only `REGULAR` tariff — Vattenfall InCharge and others publish their price that way) | CC0 1.0 (attribution appreciated: NDW) | 3 h |
+| `be-road` | BE | Road B.V. open OCPI 2.2.1 files (locations + tariffs), ≈ 3 000 Belgian sites | Operator's open download (AFIR Art. 20); no licence text published | 3 h |
 | `ch-swiss` | CH | Swiss eMobility charging price map (Chargeprice open data) + eCarUp, Fastned, Migrol via [ev-money-saver-data](https://github.com/platinumvortex/ev-money-saver-data); stations: SFOE | opendata.swiss `terms_by_ask`: attribution, non-commercial without permission — © Swiss eMobility | 12 h |
 
 Units are traced per source in each parser's KDoc (e.g. Swiss time fees: per minute for Chargeprice,

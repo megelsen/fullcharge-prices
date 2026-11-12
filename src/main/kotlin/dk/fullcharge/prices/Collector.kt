@@ -200,7 +200,19 @@ object Sources {
             if (lc !in 200..299) throw IOException("NDW locations HTTP $lc")
             out
         },
+        Source(
+            "be-road", "Belgium · Road open OCPI files", "BE",
+            "Operator's open download (AFIR Art. 20); no licence text published", "Road B.V. (roaming.road.io)",
+            3 * 3_600_000L,
+        ) { _ ->
+            val base = "https://roaming.road.io/files/9ef09c78-2666-418a-aa45-4f2261e2e305"
+            val tariffs = OcpiTariffs.parseTariffs(downloadText(http, "$base/tariffs.json"), BE_ZONE)
+            OcpiTariffs.sites(downloadText(http, "$base/locations.json"), tariffs, "BE · Road", "BE")
+        },
     )
+
+    /** Belgium keeps the same time as Copenhagen (CET/CEST). */
+    private val BE_ZONE = java.time.ZoneId.of("Europe/Brussels")
 
     /** A body that is itself a gzip file (e.g. `.json.gz`, also after transfer decoding) → unzipped stream. */
     internal fun ungzip(input: java.io.InputStream): java.io.InputStream {
