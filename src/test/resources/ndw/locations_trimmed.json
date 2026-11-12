@@ -1,0 +1,830 @@
+[
+ {
+  "id": "NL*ELD*PMAADH",
+  "city": "Maastricht",
+  "name": "Electra Maastricht - Restaurant De Dwaze Herder",
+  "evses": [
+   {
+    "uid": "NL*ELD*E33JB",
+    "status": "AVAILABLE",
+    "evse_id": "NL*ELD*E33JB",
+    "connectors": [
+     {
+      "id": "combo-ccs-eu_1",
+      "format": "CABLE",
+      "standard": "IEC_62196_T2_COMBO",
+      "power_type": "DC",
+      "tariff_ids": [
+       "58d22428-b373-11f1-8fab-17e33f462ae7"
+      ],
+      "max_voltage": 1000,
+      "last_updated": "2026-10-07T06:05:32Z",
+      "max_amperage": 200,
+      "max_electric_power": 200000,
+      "terms_and_conditions": null
+     }
+    ],
+    "directions": null,
+    "coordinates": null,
+    "floor_level": null,
+    "capabilities": [
+     "CREDIT_CARD_PAYABLE",
+     "REMOTE_START_STOP_CAPABLE",
+     "RFID_READER"
+    ],
+    "last_updated": "2026-10-08T06:16:13Z",
+    "status_schedule": null,
+    "physical_reference": "01",
+    "parking_restrictions": [
+     "DISABLED"
+    ]
+   },
+   {
+    "uid": "NL*ELD*ESTV3",
+    "status": "AVAILABLE",
+    "evse_id": "NL*ELD*ESTV3",
+    "connectors": [
+     {
+      "id": "combo-ccs-eu_2",
+      "format": "CABLE",
+      "standard": "IEC_62196_T2_COMBO",
+      "power_type": "DC",
+      "tariff_ids": [
+       "ba82cfbc-c7b7-11f1-bb33-0360f0c6c017"
+      ],
+      "max_voltage": 1000,
+      "last_updated": "2026-11-05T06:04:56Z",
+      "max_amperage": 200,
+      "max_electric_power": 200000,
+      "terms_and_conditions": null
+     }
+    ],
+    "directions": null,
+    "coordinates": null,
+    "floor_level": null,
+    "capabilities": [
+     "CREDIT_CARD_PAYABLE",
+     "REMOTE_START_STOP_CAPABLE",
+     "RFID_READER"
+    ],
+    "last_updated": "2026-11-06T06:15:52Z",
+    "status_schedule": null,
+    "physical_reference": "04",
+    "parking_restrictions": []
+   }
+  ],
+  "owner": {
+   "logo": null,
+   "name": "Electra",
+   "website": "https://www.go-electra.com"
+  },
+  "state": null,
+  "address": "Slakweg 5",
+  "country": "NLD",
+  "publish": true,
+  "operator": {
+   "logo": null,
+   "name": "Electra",
+   "website": "https://www.go-electra.com"
+  },
+  "party_id": "ELD",
+  "time_zone": "Europe/Brussels",
+  "coordinates": {
+   "latitude": "50.8165440",
+   "longitude": "5.7261640"
+  },
+  "postal_code": "6228",
+  "suboperator": null,
+  "country_code": "NL",
+  "last_updated": "2026-11-11T06:05:17Z",
+  "parking_type": null,
+  "publish_allowed_to": null,
+  "charging_when_closed": true
+ },
+ {
+  "id": "02181eed-b7fe-4cc7-b454-6cd3f2464500",
+  "city": "Tilburg",
+  "name": null,
+  "evses": [
+   {
+    "uid": "9527b290-4fac-46bb-b4ed-b924f29adbf4",
+    "status": "CHARGING",
+    "evse_id": "NLQWCE6P74C11",
+    "connectors": [
+     {
+      "id": "NLQWCE6P74C111",
+      "format": "SOCKET",
+      "standard": "IEC_62196_T2",
+      "power_type": "AC_3_PHASE",
+      "tariff_ids": [
+       "442"
+      ],
+      "max_voltage": 230,
+      "last_updated": "2024-07-10T07:21:09Z",
+      "max_amperage": 25,
+      "max_electric_power": 17250,
+      "terms_and_conditions": null
+     }
+    ],
+    "directions": null,
+    "coordinates": null,
+    "floor_level": null,
+    "capabilities": [
+     "REMOTE_START_STOP_CAPABLE",
+     "RFID_READER"
+    ],
+    "last_updated": "2026-11-12T16:08:55Z",
+    "status_schedule": null,
+    "physical_reference": "CPR25271",
+    "parking_restrictions": null
+   },
+   {
+    "uid": "bd33bc87-dea6-4f0b-920c-da443e89b2e1",
+    "status": "AVAILABLE",
+    "evse_id": "NLQWCE6P74C12",
+    "connectors": [
+     {
+      "id": "NLQWCE6P74C121",
+      "format": "SOCKET",
+      "standard": "IEC_62196_T2",
+      "power_type": "AC_3_PHASE",
+      "tariff_ids": [
+       "442"
+      ],
+      "max_voltage": 230,
+      "last_updated": "2024-07-10T07:21:09Z",
+      "max_amperage": 25,
+      "max_electric_power": 17250,
+      "terms_and_conditions": null
+     }
+    ],
+    "directions": null,
+    "coordinates": null,
+    "floor_level": null,
+    "capabilities": [
+     "REMOTE_START_STOP_CAPABLE",
+     "RFID_READER"
+    ],
+    "last_updated": "2026-11-12T17:35:41.420Z",
+    "status_schedule": null,
+    "physical_reference": "CPR25272",
+    "parking_restrictions": null
+   }
+  ],
+  "owner": {
+   "logo": null,
+   "name": "Qwello",
+   "website": null
+  },
+  "state": null,
+  "address": "Bijsterveldenlaan 378",
+  "country": "NLD",
+  "publish": true,
+  "operator": {
+   "logo": null,
+   "name": "Qwello Benelux BV",
+   "website": null
+  },
+  "party_id": "QWC",
+  "time_zone": "Europe/Amsterdam",
+  "coordinates": {
+   "latitude": "51.585510",
+   "longitude": "4.988004"
+  },
+  "postal_code": "5045ZR",
+  "suboperator": null,
+  "country_code": "NL",
+  "last_updated": "2026-11-12T17:35:41.420Z",
+  "parking_type": null,
+  "publish_allowed_to": null,
+  "charging_when_closed": null
+ },
+ {
+  "id": "7e5c7726-97b4-4584-b993-fba4a27258c8",
+  "city": "Gorinchem",
+  "name": "Gorinchem, Netherlands",
+  "evses": [
+   {
+    "uid": "e38445aa-5817-4189-a77b-6dbd6bb13bea",
+    "status": "AVAILABLE",
+    "evse_id": "NL*TSL*E0Q2C8V",
+    "connectors": [
+     {
+      "id": "ddf241e1-d5db-4f65-9d03-a00b4f6e0128",
+      "format": "CABLE",
+      "standard": "IEC_62196_T2_COMBO",
+      "power_type": "DC",
+      "tariff_ids": [
+       "6648d584-be4b-496d-a451-c5932ff58507"
+      ],
+      "max_voltage": 470,
+      "last_updated": "2026-09-30T00:43:19Z",
+      "max_amperage": 1000,
+      "max_electric_power": 250000,
+      "terms_and_conditions": null
+     }
+    ],
+    "directions": null,
+    "coordinates": {
+     "latitude": "51.841318",
+     "longitude": "5.009038"
+    },
+    "floor_level": null,
+    "capabilities": null,
+    "last_updated": "2026-09-30T00:43:19Z",
+    "status_schedule": null,
+    "physical_reference": "1B",
+    "parking_restrictions": null
+   },
+   {
+    "uid": "6f2cb0bf-e235-475b-80af-35d50e995412",
+    "status": "AVAILABLE",
+    "evse_id": "NL*TSL*E0Q2CLP",
+    "connectors": [
+     {
+      "id": "2172bcac-b1eb-43f3-8a12-311154353482",
+      "format": "CABLE",
+      "standard": "IEC_62196_T2_COMBO",
+      "power_type": "DC",
+      "tariff_ids": [
+       "6648d584-be4b-496d-a451-c5932ff58507"
+      ],
+      "max_voltage": 470,
+      "last_updated": "2026-09-30T00:43:19Z",
+      "max_amperage": 1000,
+      "max_electric_power": 250000,
+      "terms_and_conditions": null
+     }
+    ],
+    "directions": null,
+    "coordinates": {
+     "latitude": "51.841318",
+     "longitude": "5.009038"
+    },
+    "floor_level": null,
+    "capabilities": null,
+    "last_updated": "2026-09-30T00:43:19Z",
+    "status_schedule": null,
+    "physical_reference": "3B",
+    "parking_restrictions": null
+   }
+  ],
+  "owner": {
+   "logo": {
+    "url": "https://digitalassets.tesla.com/oxp/image/upload/v1743531183/TeslaCharging_e28b8efd65c74.jpg",
+    "type": "jpg",
+    "width": null,
+    "height": null,
+    "category": "OWNER",
+    "thumbnail": null
+   },
+   "name": "Tesla, Inc.",
+   "website": null
+  },
+  "state": null,
+  "address": "7, Franklinweg",
+  "country": "NLD",
+  "publish": true,
+  "operator": {
+   "logo": {
+    "url": "https://digitalassets.tesla.com/oxp/image/upload/v1743531183/TeslaCharging_e28b8efd65c74.jpg",
+    "type": "jpg",
+    "width": null,
+    "height": null,
+    "category": "OPERATOR",
+    "thumbnail": null
+   },
+   "name": "Tesla",
+   "website": null
+  },
+  "party_id": "TSL",
+  "time_zone": "Europe/Amsterdam",
+  "coordinates": {
+   "latitude": "51.841318",
+   "longitude": "5.009038"
+  },
+  "postal_code": "4207 HX",
+  "suboperator": null,
+  "country_code": "US",
+  "last_updated": "2026-11-06T02:40:35.106Z",
+  "parking_type": null,
+  "publish_allowed_to": null,
+  "charging_when_closed": false
+ },
+ {
+  "id": "2665",
+  "city": "Zegge",
+  "name": "E.ON Drive Public Netherlands AH, Rijksweg-Noord 28, Zegge",
+  "evses": [
+   {
+    "uid": "19949",
+    "status": "AVAILABLE",
+    "evse_id": "NL*UFC*E900003*2",
+    "connectors": [
+     {
+      "id": "21346",
+      "format": "CABLE",
+      "standard": "IEC_62196_T2_COMBO",
+      "power_type": "DC",
+      "tariff_ids": [
+       "431"
+      ],
+      "max_voltage": 400,
+      "last_updated": "2026-08-03T08:14:34Z",
+      "max_amperage": 85,
+      "max_electric_power": 50000,
+      "terms_and_conditions": null
+     }
+    ],
+    "directions": null,
+    "coordinates": null,
+    "floor_level": "AH, ",
+    "capabilities": [
+     "REMOTE_START_STOP_CAPABLE",
+     "RFID_READER"
+    ],
+    "last_updated": "2026-08-04T07:41:56Z",
+    "status_schedule": null,
+    "physical_reference": "900003*2",
+    "parking_restrictions": []
+   },
+   {
+    "uid": "19948",
+    "status": "CHARGING",
+    "evse_id": "NL*UFC*E900003*1",
+    "connectors": [
+     {
+      "id": "21345",
+      "format": "CABLE",
+      "standard": "IEC_62196_T2_COMBO",
+      "power_type": "DC",
+      "tariff_ids": [
+       "431"
+      ],
+      "max_voltage": 400,
+      "last_updated": "2026-08-03T08:14:34Z",
+      "max_amperage": 85,
+      "max_electric_power": 50000,
+      "terms_and_conditions": null
+     }
+    ],
+    "directions": null,
+    "coordinates": null,
+    "floor_level": "AH, ",
+    "capabilities": [
+     "REMOTE_START_STOP_CAPABLE",
+     "RFID_READER"
+    ],
+    "last_updated": "2026-08-04T09:03:48Z",
+    "status_schedule": null,
+    "physical_reference": "900003*1",
+    "parking_restrictions": []
+   }
+  ],
+  "owner": {
+   "logo": null,
+   "name": "E.ON Drive",
+   "website": "https://edri.com/"
+  },
+  "state": null,
+  "address": "Rijksweg-Noord 28",
+  "country": "NLD",
+  "publish": true,
+  "operator": {
+   "logo": null,
+   "name": "E.ON Drive",
+   "website": "https://edri.com/"
+  },
+  "party_id": "UFC",
+  "time_zone": "Europe/Amsterdam",
+  "coordinates": {
+   "latitude": "51.5452950",
+   "longitude": "4.5063020"
+  },
+  "postal_code": "4735TX",
+  "suboperator": null,
+  "country_code": "NL",
+  "last_updated": "2026-08-04T09:03:48Z",
+  "parking_type": null,
+  "publish_allowed_to": null,
+  "charging_when_closed": true
+ },
+ {
+  "id": "3813bf42-4dbe-4743-96d6-560e053b8b6e",
+  "city": "Den Haag",
+  "name": "EV Hub - Laan van Meerdervoort 1781, Den Haag",
+  "evses": [
+   {
+    "uid": "TNLP040301-2",
+    "status": "CHARGING",
+    "evse_id": "NL*TCB*ETNLP040301*2",
+    "connectors": [
+     {
+      "id": "2",
+      "format": "CABLE",
+      "standard": "IEC_62196_T2_COMBO",
+      "power_type": "DC",
+      "tariff_ids": [
+       "NL*TCB_NL_059"
+      ],
+      "max_voltage": 950,
+      "last_updated": "2026-11-11T22:13:04Z",
+      "max_amperage": 500,
+      "max_electric_power": 300000,
+      "terms_and_conditions": null
+     }
+    ],
+    "directions": null,
+    "coordinates": null,
+    "floor_level": null,
+    "capabilities": [
+     "CREDIT_CARD_PAYABLE",
+     "REMOTE_START_STOP_CAPABLE",
+     "RFID_READER"
+    ],
+    "last_updated": "2026-11-12T18:25:14Z",
+    "status_schedule": null,
+    "physical_reference": "RIGHT",
+    "parking_restrictions": []
+   },
+   {
+    "uid": "TNLP040302-1",
+    "status": "AVAILABLE",
+    "evse_id": "NL*TCB*ETNLP040302*1",
+    "connectors": [
+     {
+      "id": "1",
+      "format": "CABLE",
+      "standard": "IEC_62196_T2_COMBO",
+      "power_type": "DC",
+      "tariff_ids": [
+       "NL*TCB_NL_059"
+      ],
+      "max_voltage": 950,
+      "last_updated": "2026-11-11T22:13:04Z",
+      "max_amperage": 500,
+      "max_electric_power": 300000,
+      "terms_and_conditions": null
+     }
+    ],
+    "directions": null,
+    "coordinates": null,
+    "floor_level": null,
+    "capabilities": [
+     "CREDIT_CARD_PAYABLE",
+     "REMOTE_START_STOP_CAPABLE",
+     "RFID_READER"
+    ],
+    "last_updated": "2026-11-12T14:37:21Z",
+    "status_schedule": null,
+    "physical_reference": "LEFT",
+    "parking_restrictions": []
+   }
+  ],
+  "owner": {
+   "logo": null,
+   "name": "TotalEnergies",
+   "website": "https://chargingservices.totalenergies.com/"
+  },
+  "state": null,
+  "address": "1781 Laan van Meerdervoort",
+  "country": "NLD",
+  "publish": true,
+  "operator": {
+   "logo": null,
+   "name": "TotalEnergies",
+   "website": "https://chargingservices.totalenergies.com/"
+  },
+  "party_id": "TCB",
+  "time_zone": "Europe/Amsterdam",
+  "coordinates": {
+   "latitude": "52.0612340",
+   "longitude": "4.2276173"
+  },
+  "postal_code": "2555 BW",
+  "suboperator": null,
+  "country_code": "NL",
+  "last_updated": "2026-11-12T18:26:34Z",
+  "parking_type": null,
+  "publish_allowed_to": null,
+  "charging_when_closed": true
+ },
+ {
+  "id": "15041",
+  "city": "Nieuwegein",
+  "name": "Jumbo 3144 Nieuwegein Walnootgaarde (PowerGo)",
+  "evses": [
+   {
+    "uid": "NL.SPI.ECO00506*1",
+    "status": "AVAILABLE",
+    "evse_id": "NL.SPI.ECO00506*1",
+    "connectors": [
+     {
+      "id": "1",
+      "format": "CABLE",
+      "standard": "IEC_62196_T2_COMBO",
+      "power_type": "DC",
+      "tariff_ids": [
+       "NL0-ALL-JUMBO-PUBLIC"
+      ],
+      "max_voltage": 400,
+      "last_updated": "2026-11-11T23:30:10Z",
+      "max_amperage": 225,
+      "max_electric_power": 90000,
+      "terms_and_conditions": null
+     }
+    ],
+    "directions": null,
+    "coordinates": null,
+    "floor_level": null,
+    "capabilities": [],
+    "last_updated": "2026-11-12T16:05:39Z",
+    "status_schedule": null,
+    "physical_reference": null,
+    "parking_restrictions": []
+   },
+   {
+    "uid": "NL.SPI.ECO00505*1",
+    "status": "AVAILABLE",
+    "evse_id": "NL.SPI.ECO00505*1",
+    "connectors": [
+     {
+      "id": "1",
+      "format": "CABLE",
+      "standard": "IEC_62196_T2_COMBO",
+      "power_type": "DC",
+      "tariff_ids": [
+       "NL0-ALL-JUMBO-PUBLIC"
+      ],
+      "max_voltage": 400,
+      "last_updated": "2026-11-11T23:30:10Z",
+      "max_amperage": 225,
+      "max_electric_power": 90000,
+      "terms_and_conditions": null
+     }
+    ],
+    "directions": null,
+    "coordinates": null,
+    "floor_level": null,
+    "capabilities": [],
+    "last_updated": "2026-11-12T17:00:35Z",
+    "status_schedule": null,
+    "physical_reference": null,
+    "parking_restrictions": []
+   }
+  ],
+  "owner": {
+   "logo": null,
+   "name": "PowerGo",
+   "website": "https://www.powergo.nl/"
+  },
+  "state": null,
+  "address": "Walnootgaarde 4a",
+  "country": "NLD",
+  "publish": true,
+  "operator": {
+   "logo": null,
+   "name": "PowerGo",
+   "website": "https://www.powergo.nl/"
+  },
+  "party_id": "PFG",
+  "time_zone": "Europe/Amsterdam",
+  "coordinates": {
+   "latitude": "52.0363045",
+   "longitude": "5.0718556"
+  },
+  "postal_code": "3436JA",
+  "suboperator": null,
+  "country_code": "NL",
+  "last_updated": "2026-11-12T17:00:35Z",
+  "parking_type": null,
+  "publish_allowed_to": null,
+  "charging_when_closed": true
+ },
+ {
+  "id": "60b4d35c2caf1afda5c45a65",
+  "city": "Brouwershaven",
+  "name": "Pholas10",
+  "evses": [
+   {
+    "uid": "60b4b4345c20a80b37c0f3fe",
+    "status": "AVAILABLE",
+    "evse_id": "NL*EFL*EV8380462*C1",
+    "connectors": [
+     {
+      "id": "1",
+      "format": "SOCKET",
+      "standard": "IEC_62196_T2",
+      "power_type": "AC_3_PHASE",
+      "tariff_ids": [
+       "t-60b4af5e5984608dec2d64d2-1"
+      ],
+      "max_voltage": 230,
+      "last_updated": "2026-11-12T16:55:56.988Z",
+      "max_amperage": 16,
+      "max_electric_power": 11040,
+      "terms_and_conditions": null
+     }
+    ],
+    "directions": null,
+    "coordinates": null,
+    "floor_level": null,
+    "capabilities": [
+     "REMOTE_START_STOP_CAPABLE",
+     "RFID_READER"
+    ],
+    "last_updated": "2026-11-12T16:55:56.988Z",
+    "status_schedule": null,
+    "physical_reference": null,
+    "parking_restrictions": null
+   }
+  ],
+  "owner": null,
+  "state": null,
+  "address": "Pholas 10",
+  "country": "NLD",
+  "publish": true,
+  "operator": {
+   "logo": null,
+   "name": "E-Flux by Road",
+   "website": "https://help.e-flux.io"
+  },
+  "party_id": "EFL",
+  "time_zone": "Europe/Amsterdam",
+  "coordinates": {
+   "latitude": "51.737130",
+   "longitude": "3.896807"
+  },
+  "postal_code": "4318ND",
+  "suboperator": {
+   "logo": null,
+   "name": "E-Flux by Road",
+   "website": null
+  },
+  "country_code": "NL",
+  "last_updated": "2026-11-12T16:55:57.010Z",
+  "parking_type": null,
+  "publish_allowed_to": null,
+  "charging_when_closed": false
+ },
+ {
+  "id": "60dd93856c690668cabe9a68",
+  "city": "Hedel",
+  "name": "Achterdijk 10, Hedel",
+  "evses": [
+   {
+    "uid": "60ddd4896b02aa86d020155e",
+    "status": "INOPERATIVE",
+    "evse_id": "NL*EFL*EV7849522*C1",
+    "connectors": [
+     {
+      "id": "1",
+      "format": "SOCKET",
+      "standard": "IEC_62196_T2",
+      "power_type": "AC_3_PHASE",
+      "tariff_ids": [
+       "t-60ddcc085ad0b1427546a1f9-1"
+      ],
+      "max_voltage": 230,
+      "last_updated": "2024-05-03T12:12:23.056Z",
+      "max_amperage": 32,
+      "max_electric_power": 22080,
+      "terms_and_conditions": null
+     }
+    ],
+    "directions": null,
+    "coordinates": null,
+    "floor_level": null,
+    "capabilities": [
+     "REMOTE_START_STOP_CAPABLE",
+     "RFID_READER"
+    ],
+    "last_updated": "2024-05-03T12:12:23.056Z",
+    "status_schedule": null,
+    "physical_reference": null,
+    "parking_restrictions": null
+   }
+  ],
+  "owner": null,
+  "state": null,
+  "address": "Achterdijk 10",
+  "country": "NLD",
+  "publish": true,
+  "operator": {
+   "logo": null,
+   "name": "E-Flux by Road",
+   "website": "https://help.e-flux.io"
+  },
+  "party_id": "EFL",
+  "time_zone": "Europe/Amsterdam",
+  "coordinates": {
+   "latitude": "51.763290",
+   "longitude": "5.236842"
+  },
+  "postal_code": "5321JB",
+  "suboperator": {
+   "logo": null,
+   "name": "E-Flux by Road",
+   "website": null
+  },
+  "country_code": "NL",
+  "last_updated": "2026-04-15T10:00:31.747Z",
+  "parking_type": null,
+  "publish_allowed_to": null,
+  "charging_when_closed": false
+ },
+ {
+  "id": "114817b0b0bc15b09028d4f020d87e86",
+  "city": "Breukelen",
+  "name": null,
+  "evses": [
+   {
+    "uid": "d9a1b6623a556af71b5a60db03c80a90",
+    "status": "AVAILABLE",
+    "evse_id": "NL*NUO*EXCHA*0000016*1",
+    "connectors": [
+     {
+      "id": "f92b90a7-4322-4a51-9e5d-03a70fc3e916",
+      "format": "CABLE",
+      "standard": "IEC_62196_T2_COMBO",
+      "power_type": "DC",
+      "tariff_ids": [
+       "2000013217-2000011292"
+      ],
+      "max_voltage": 920,
+      "last_updated": "2025-09-04T09:40:32Z",
+      "max_amperage": 400,
+      "max_electric_power": 120000,
+      "terms_and_conditions": null
+     }
+    ],
+    "directions": null,
+    "coordinates": null,
+    "floor_level": null,
+    "capabilities": [
+     "REMOTE_START_STOP_CAPABLE",
+     "RFID_READER"
+    ],
+    "last_updated": "2026-11-12T18:39:08Z",
+    "status_schedule": null,
+    "physical_reference": null,
+    "parking_restrictions": null
+   },
+   {
+    "uid": "bddc928178ba813158eca8ea0a5aadc9",
+    "status": "CHARGING",
+    "evse_id": "NL*NUO*EXCHA*0000016*2",
+    "connectors": [
+     {
+      "id": "118ef152-0d33-44e3-b143-0e9807f2d2c6",
+      "format": "CABLE",
+      "standard": "IEC_62196_T2_COMBO",
+      "power_type": "DC",
+      "tariff_ids": [
+       "2000013217-2000011292"
+      ],
+      "max_voltage": 920,
+      "last_updated": "2025-09-04T09:40:47Z",
+      "max_amperage": 400,
+      "max_electric_power": 120000,
+      "terms_and_conditions": null
+     }
+    ],
+    "directions": null,
+    "coordinates": null,
+    "floor_level": null,
+    "capabilities": [
+     "REMOTE_START_STOP_CAPABLE",
+     "RFID_READER"
+    ],
+    "last_updated": "2026-11-12T17:52:11Z",
+    "status_schedule": null,
+    "physical_reference": null,
+    "parking_restrictions": null
+   }
+  ],
+  "owner": null,
+  "state": null,
+  "address": "De Corridor 1",
+  "country": "NLD",
+  "publish": true,
+  "operator": {
+   "logo": null,
+   "name": "Vattenfall InCharge",
+   "website": "https://vattenfall.nl"
+  },
+  "party_id": "NUO",
+  "time_zone": "Europe/Amsterdam",
+  "coordinates": {
+   "latitude": "52.171461",
+   "longitude": "4.989638"
+  },
+  "postal_code": "3621 ZA",
+  "suboperator": null,
+  "country_code": "NL",
+  "last_updated": "2026-11-12T18:39:08Z",
+  "parking_type": "ON_STREET",
+  "publish_allowed_to": null,
+  "charging_when_closed": null
+ }
+]

@@ -16,10 +16,13 @@ planner. No accounts, no personal data.
 | `dk-eco` | DK | Eco-Movement NAP feed (dataset 1170): Clever, IONITY, Circle K, Lidl … | CC BY 4.0 — © Eco-Movement B.V. | hourly (needs secret `ECO_MOVEMENT_TOKEN`) |
 | `dk-monta` | DK | Monta AFIR API (dataset 1092): Norlys, Monta, Uno-X … | CC BY — © Monta ApS | hourly (needs secrets `MONTA_CLIENT_ID`, `MONTA_CLIENT_SECRET`) |
 | `de-ladekrone` | DE | Mobilithek AFIR offers via [ladekrone](https://github.com/uekala/ladekrone) (MIT) | CC0 / CC BY 4.0 (EnBW mobility+, Eco-Movement B.V., GLS Mobility) / DL-DE | 3 h |
+| `fi-digitraffic` | FI | Fintraffic Digitraffic AFIR (tariffs + locations, OCPI-shaped; `AD_HOC_PAYMENT` tariffs only) | CC BY 4.0 — "Source: Fintraffic / digitraffic.fi, license CC 4.0 BY" | hourly |
+| `nl-ndw` | NL | NDW DOT-NL national OCPI 2.2.1 locations + tariffs (ad-hoc = `AD_HOC_PAYMENT`, else untyped default tariff) | CC0 1.0 (attribution appreciated: NDW) | 3 h |
 | `ch-swiss` | CH | Swiss eMobility charging price map (Chargeprice open data) + eCarUp, Fastned, Migrol via [ev-money-saver-data](https://github.com/platinumvortex/ev-money-saver-data); stations: SFOE | opendata.swiss `terms_by_ask`: attribution, non-commercial without permission — © Swiss eMobility | 12 h |
 
 Units are traced per source in each parser's KDoc (e.g. Swiss time fees: per minute for Chargeprice,
-per hour for eCarUp; German `fromMinute` in minutes). A source that fails keeps its last good data
+per hour for eCarUp; German `fromMinute` in minutes; OCPI TIME per hour and prices excl. VAT with a
+`vat` percent; Finnish local times shifted −60 min to the planner's Copenhagen time). A source that fails keeps its last good data
 for 48 h (`status: "stale"` in `meta.json`).
 
 ## Run locally

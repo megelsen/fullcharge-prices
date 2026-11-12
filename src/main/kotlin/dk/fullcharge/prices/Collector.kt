@@ -4,10 +4,13 @@ import dk.fullcharge.core.net.HttpTransport
 import dk.fullcharge.core.net.UrlConnectionTransport
 import dk.fullcharge.core.pricing.AfirSite
 import dk.fullcharge.core.pricing.Datex2AfirParser
+import dk.fullcharge.core.pricing.DigitrafficAfir
+import dk.fullcharge.core.pricing.DigitrafficAfirFeed
 import dk.fullcharge.core.pricing.EcoMovementFeed
 import dk.fullcharge.core.pricing.JsonArrayStreamer
 import dk.fullcharge.core.pricing.LadekroneTiles
 import dk.fullcharge.core.pricing.MontaFeed
+import dk.fullcharge.core.pricing.OcpiTariffs
 import dk.fullcharge.core.pricing.PriceTiles
 import dk.fullcharge.core.pricing.SpiriiFeed
 import dk.fullcharge.core.pricing.SwissPriceBundle
@@ -177,7 +180,33 @@ object Sources {
             val prices = downloadText(http, SwissPriceBundle.PRICES_URL)
             SwissPriceBundle.sites(stations, SwissPriceBundle.parsePrices(prices))
         },
+        Source(
+            "fi-digitraffic", "Finland · Fintraffic Digitraffic AFIR", "FI", "CC BY 4.0", DigitrafficAfir.ATTRIBUTION, 0,
+        ) { _ -> DigitrafficAfirFeed(http).sites().sites },
+        Source(
+            "nl-ndw", "Netherlands · NDW DOT-NL (OCPI 2.2.1)", "NL", "CC0 1.0", OcpiTariffs.NDW_ATTRIBUTION,
+            3 * 3_600_000L, // two files of ≈ 19 + 5 MB gzip (≈ 290 MB JSON)
+        ) { _ ->
+            var tariffs: Map<OcpiTariffs.TariffKey, OcpiTariffs.Tariff>? = null
+            val tc = http.download(OcpiTariffs.NDW_TARIFFS_URL, emptyMap()) { tariffs = OcpiTariffs.parseTariffs(ungzip(it).reader(Charsets.UTF_8), OcpiTariffs.NDW_ZONE) }
+            if (tc !in 200..299 || tariffs == null) throw IOException("NDW tariffs HTTP $tc")
+            val out = ArrayList<AfirSite>()
+            val lc = http.download(OcpiTariffs.NDW_LOCATIONS_URL, emptyMap()) {
+                OcpiTariffs.forEachSite(ungzip(it).reader(Charsets.UTF_8), tariffs!!, OcpiTariffs.NDW_SOURCE, "NL") { s -> out += s }
+            }
+            if (lc !in 200..299) throw IOException("NDW locations HTTP $lc")
+            out
+        },
     )
+
+    /** A body that is itself a gzip file (e.g. `.json.gz`, also after transfer decoding) → unzipped stream. */
+    internal fun ungzip(input: java.io.InputStream): java.io.InputStream {
+        val b = java.io.BufferedInputStream(input)
+        b.mark(2)
+        val gz = b.read() == 0x1f && b.read() == 0x8b
+        b.reset()
+        return if (gz) java.util.zip.GZIPInputStream(b) else b
+    }
 
     /** Whole body as text (gzip transfer encoding decoded by the transport; a gzip file body unzipped too). */
     private suspend fun downloadText(http: HttpTransport, url: String): String {

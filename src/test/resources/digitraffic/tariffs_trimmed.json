@@ -1,0 +1,610 @@
+{
+ "pagination": {
+  "limit": 10
+ },
+ "modifiedAt": "2026-11-12T18:48:19.116Z",
+ "tariffs": [
+  {
+   "countryCode": "FI",
+   "partyId": "HLN",
+   "id": "FIHLNTTRF639077933404301694",
+   "currency": "EUR",
+   "type": "REGULAR",
+   "taxIncluded": "NO",
+   "elements": [
+    {
+     "priceComponents": [
+      {
+       "type": "TIME",
+       "price": 4.8,
+       "vat": 25.5,
+       "stepSize": 60
+      }
+     ]
+    },
+    {
+     "priceComponents": [
+      {
+       "type": "PARKING_TIME",
+       "price": 4.8,
+       "vat": 25.5,
+       "stepSize": 60
+      }
+     ]
+    }
+   ],
+   "lastUpdated": "2026-02-27T12:49:16.860Z"
+  },
+  {
+   "countryCode": "FI",
+   "partyId": "WTY",
+   "id": "FI*WTY*E11939*1-tariff",
+   "currency": "EUR",
+   "type": "AD_HOC_PAYMENT",
+   "tariffAltText": [],
+   "tariffAltUrl": "https://start.wattery.io/fi/num/FI-11939-1",
+   "taxIncluded": "NO",
+   "elements": [
+    {
+     "priceComponents": [
+      {
+       "type": "ENERGY",
+       "price": 0.2789,
+       "vat": 25.5,
+       "stepSize": 1
+      },
+      {
+       "type": "FLAT",
+       "price": 0.1992,
+       "vat": 25.5,
+       "stepSize": 1
+      }
+     ]
+    }
+   ],
+   "lastUpdated": "2026-11-10T04:00:15.643Z"
+  },
+  {
+   "countryCode": "FI",
+   "partyId": "NES",
+   "id": "tariff-station-CSLQBCwsbnc",
+   "currency": "EUR",
+   "type": "AD_HOC_PAYMENT",
+   "taxIncluded": "NO",
+   "elements": [
+    {
+     "priceComponents": [
+      {
+       "type": "ENERGY",
+       "price": 1,
+       "vat": 25.5,
+       "stepSize": 1
+      }
+     ],
+     "restrictions": {
+      "maxPower": 50,
+      "maxDuration": 2700
+     }
+    },
+    {
+     "priceComponents": [
+      {
+       "type": "ENERGY",
+       "price": 1,
+       "vat": 25.5,
+       "stepSize": 1
+      },
+      {
+       "type": "TIME",
+       "price": 12,
+       "vat": 25.5,
+       "stepSize": 60
+      },
+      {
+       "type": "PARKING_TIME",
+       "price": 12,
+       "vat": 25.5,
+       "stepSize": 60
+      }
+     ],
+     "restrictions": {
+      "maxPower": 50,
+      "minDuration": 2700
+     }
+    },
+    {
+     "priceComponents": [
+      {
+       "type": "ENERGY",
+       "price": 0.37,
+       "vat": 25.5,
+       "stepSize": 1
+      }
+     ],
+     "restrictions": {
+      "minPower": 50,
+      "maxDuration": 2700
+     }
+    },
+    {
+     "priceComponents": [
+      {
+       "type": "ENERGY",
+       "price": 0.37,
+       "vat": 25.5,
+       "stepSize": 1
+      },
+      {
+       "type": "TIME",
+       "price": 12,
+       "vat": 25.5,
+       "stepSize": 60
+      },
+      {
+       "type": "PARKING_TIME",
+       "price": 12,
+       "vat": 25.5,
+       "stepSize": 60
+      }
+     ],
+     "restrictions": {
+      "minPower": 50,
+      "minDuration": 2700
+     }
+    }
+   ],
+   "startDateTime": "2026-11-12T18:00:15.1152539Z",
+   "lastUpdated": "2026-11-12T18:00:15.151Z"
+  },
+  {
+   "countryCode": "FI",
+   "partyId": "KCH",
+   "id": "1d89d30c77fbac735bf9c63fefe0720b",
+   "currency": "EUR",
+   "type": "AD_HOC_PAYMENT",
+   "taxIncluded": "NO",
+   "elements": [
+    {
+     "priceComponents": [
+      {
+       "type": "TIME",
+       "price": 9.564,
+       "vat": 25.5,
+       "stepSize": 60
+      }
+     ],
+     "restrictions": {
+      "minDuration": 3600
+     }
+    },
+    {
+     "priceComponents": [
+      {
+       "type": "ENERGY",
+       "price": 0.3586,
+       "vat": 25.5,
+       "stepSize": 1
+      }
+     ]
+    }
+   ],
+   "startDateTime": "2026-06-11T21:00:00.000Z",
+   "lastUpdated": "2026-10-03T06:00:05.382Z"
+  },
+  {
+   "countryCode": "FI",
+   "partyId": "PLG",
+   "id": "dbb5e2f7153c88320c12e50cff4bb3bd",
+   "currency": "EUR",
+   "type": "AD_HOC_PAYMENT",
+   "taxIncluded": "YES",
+   "elements": [
+    {
+     "priceComponents": [
+      {
+       "type": "ENERGY",
+       "price": 0.28,
+       "vat": 25.5,
+       "stepSize": 1
+      }
+     ],
+     "restrictions": {
+      "startTime": "07:00",
+      "endTime": "21:00"
+     }
+    },
+    {
+     "priceComponents": [
+      {
+       "type": "ENERGY",
+       "price": 0.19,
+       "vat": 25.5,
+       "stepSize": 1
+      }
+     ],
+     "restrictions": {
+      "startTime": "21:00",
+      "endTime": "07:00"
+     }
+    }
+   ],
+   "startDateTime": "2026-04-16T11:59:04.777Z",
+   "lastUpdated": "2026-11-03T06:00:02.129Z"
+  },
+  {
+   "countryCode": "FI",
+   "partyId": "PLG",
+   "id": "4d28209ef4efdea0f3f6255770223b48",
+   "currency": "EUR",
+   "type": "AD_HOC_PAYMENT",
+   "taxIncluded": "YES",
+   "elements": [
+    {
+     "priceComponents": [
+      {
+       "type": "TIME",
+       "price": 12,
+       "vat": 25.5,
+       "stepSize": 60
+      }
+     ],
+     "restrictions": {
+      "startTime": "07:00",
+      "endTime": "21:00",
+      "minDuration": 10800
+     }
+    },
+    {
+     "priceComponents": [
+      {
+       "type": "ENERGY",
+       "price": 0.35,
+       "vat": 25.5,
+       "stepSize": 1
+      }
+     ],
+     "restrictions": {
+      "startTime": "07:00",
+      "endTime": "21:00"
+     }
+    },
+    {
+     "priceComponents": [
+      {
+       "type": "TIME",
+       "price": 12,
+       "vat": 25.5,
+       "stepSize": 60
+      }
+     ],
+     "restrictions": {
+      "startTime": "21:00",
+      "endTime": "07:00",
+      "minDuration": 10800
+     }
+    },
+    {
+     "priceComponents": [
+      {
+       "type": "ENERGY",
+       "price": 0.32,
+       "vat": 25.5,
+       "stepSize": 1
+      }
+     ],
+     "restrictions": {
+      "startTime": "21:00",
+      "endTime": "07:00"
+     }
+    }
+   ],
+   "startDateTime": "2026-04-16T11:59:04.777Z",
+   "lastUpdated": "2026-11-03T06:00:03.977Z"
+  },
+  {
+   "countryCode": "FI",
+   "partyId": "ABC",
+   "id": "FIABCTTRF639246403487269896",
+   "currency": "EUR",
+   "type": "AD_HOC_PAYMENT",
+   "taxIncluded": "NO",
+   "elements": [
+    {
+     "priceComponents": [
+      {
+       "type": "ENERGY",
+       "price": 0.247,
+       "vat": 25.5,
+       "stepSize": 1
+      }
+     ],
+     "restrictions": {
+      "startTime": "07:00",
+      "endTime": "20:00"
+     }
+    },
+    {
+     "priceComponents": [
+      {
+       "type": "ENERGY",
+       "price": 0.2231,
+       "vat": 25.5,
+       "stepSize": 1
+      }
+     ],
+     "restrictions": {
+      "startTime": "20:00",
+      "endTime": "07:00"
+     }
+    },
+    {
+     "priceComponents": [
+      {
+       "type": "TIME",
+       "price": 9.5618,
+       "vat": 25.5,
+       "stepSize": 1
+      },
+      {
+       "type": "PARKING_TIME",
+       "price": 9.5618,
+       "vat": 25.5,
+       "stepSize": 1
+      }
+     ],
+     "restrictions": {
+      "minDuration": 5400
+     }
+    }
+   ],
+   "startDateTime": "2025-09-25T21:00:00.000Z",
+   "lastUpdated": "2026-09-10T12:32:28.726Z"
+  },
+  {
+   "countryCode": "FI",
+   "partyId": "ABC",
+   "id": "FIABCTTRF639246403493413048",
+   "currency": "EUR",
+   "type": "AD_HOC_PAYMENT",
+   "taxIncluded": "NO",
+   "elements": [
+    {
+     "priceComponents": [
+      {
+       "type": "ENERGY",
+       "price": 0.1912,
+       "vat": 25.5,
+       "stepSize": 1
+      }
+     ],
+     "restrictions": {
+      "startTime": "07:00",
+      "endTime": "20:00"
+     }
+    },
+    {
+     "priceComponents": [
+      {
+       "type": "ENERGY",
+       "price": 0.1594,
+       "vat": 25.5,
+       "stepSize": 1
+      }
+     ],
+     "restrictions": {
+      "startTime": "20:00",
+      "endTime": "07:00"
+     }
+    },
+    {
+     "priceComponents": [
+      {
+       "type": "TIME",
+       "price": 0.9562,
+       "vat": 25.5,
+       "stepSize": 1
+      },
+      {
+       "type": "PARKING_TIME",
+       "price": 0.9562,
+       "vat": 25.5,
+       "stepSize": 1
+      }
+     ],
+     "restrictions": {
+      "startTime": "07:00",
+      "endTime": "20:00",
+      "minDuration": 7200
+     }
+    }
+   ],
+   "startDateTime": "2025-09-25T21:00:00.000Z",
+   "lastUpdated": "2026-09-10T12:32:29.341Z"
+  },
+  {
+   "countryCode": "FI",
+   "partyId": "ALL",
+   "id": "2980f6fab5ace89faf8a38025a53e6e6",
+   "currency": "EUR",
+   "type": "AD_HOC_PAYMENT",
+   "tariffAltText": [
+    {
+     "text": "Energy: 0.60 EUR/kWh Idle fee: 0.25 EUR/min after 45 min, max 300 min",
+     "language": "en"
+    },
+    {
+     "text": "Energia: 0.60 EUR/kWh\r\nJoutokäyntimaksu: 0.25 EUR/min 45 min jälkeen, enint. 300 min",
+     "language": "fi"
+    }
+   ],
+   "taxIncluded": "NO",
+   "elements": [
+    {
+     "priceComponents": [
+      {
+       "type": "PARKING_TIME",
+       "price": 0,
+       "vat": 25.5,
+       "stepSize": 1
+      }
+     ],
+     "restrictions": {
+      "minDuration": 0
+     }
+    },
+    {
+     "priceComponents": [
+      {
+       "type": "PARKING_TIME",
+       "price": 11.9522,
+       "vat": 25.5,
+       "stepSize": 60
+      }
+     ],
+     "restrictions": {
+      "minDuration": 2700
+     }
+    },
+    {
+     "priceComponents": [
+      {
+       "type": "PARKING_TIME",
+       "price": 0,
+       "vat": 25.5,
+       "stepSize": 1
+      }
+     ],
+     "restrictions": {
+      "minDuration": 20700
+     }
+    },
+    {
+     "priceComponents": [
+      {
+       "type": "ENERGY",
+       "price": 0.476,
+       "vat": 25.5,
+       "stepSize": 1
+      }
+     ]
+    }
+   ],
+   "lastUpdated": "2026-11-12T06:08:22.000Z"
+  },
+  {
+   "countryCode": "FI",
+   "partyId": "TSL",
+   "id": "26994fe9-bb0e-4b39-8e3b-50f0609a52a2",
+   "currency": "EUR",
+   "tariffAltText": [
+    {
+     "text": "Tesla charges congestion fees only when a Supercharger site is busy. The congestion fee encourages drivers to charge only as much as is needed for their trip, rather than all the way to 100%. This increases the availability of chargers so that everyone has access when they need it.",
+     "language": "en"
+    }
+   ],
+   "tariffAltUrl": "https://www.tesla.com/support/charging/supercharger/fees",
+   "taxIncluded": "NO",
+   "elements": [
+    {
+     "priceComponents": [
+      {
+       "type": "CONGESTION_TIME",
+       "price": 0,
+       "stepSize": 60
+      }
+     ],
+     "restrictions": {
+      "minDuration": 0,
+      "maxDuration": 300
+     }
+    },
+    {
+     "priceComponents": [
+      {
+       "type": "CONGESTION_TIME",
+       "price": 30,
+       "stepSize": 60
+      }
+     ]
+    },
+    {
+     "priceComponents": [
+      {
+       "type": "ENERGY",
+       "price": 0.39,
+       "stepSize": 1
+      }
+     ],
+     "restrictions": {
+      "startTime": "00:00",
+      "endTime": "16:00",
+      "dayOfWeek": [
+       "MONDAY",
+       "TUESDAY",
+       "WEDNESDAY",
+       "THURSDAY",
+       "FRIDAY",
+       "SATURDAY",
+       "SUNDAY"
+      ]
+     }
+    },
+    {
+     "priceComponents": [
+      {
+       "type": "ENERGY",
+       "price": 0.45,
+       "stepSize": 1
+      }
+     ],
+     "restrictions": {
+      "startTime": "16:00",
+      "endTime": "20:00",
+      "dayOfWeek": [
+       "MONDAY",
+       "TUESDAY",
+       "WEDNESDAY",
+       "THURSDAY",
+       "FRIDAY",
+       "SATURDAY",
+       "SUNDAY"
+      ]
+     }
+    },
+    {
+     "priceComponents": [
+      {
+       "type": "ENERGY",
+       "price": 0.39,
+       "stepSize": 1
+      }
+     ],
+     "restrictions": {
+      "startTime": "20:00",
+      "endTime": "00:00",
+      "dayOfWeek": [
+       "MONDAY",
+       "TUESDAY",
+       "WEDNESDAY",
+       "THURSDAY",
+       "FRIDAY",
+       "SATURDAY",
+       "SUNDAY"
+      ]
+     }
+    },
+    {
+     "priceComponents": [
+      {
+       "type": "ENERGY",
+       "price": 0.39,
+       "stepSize": 1
+      }
+     ]
+    }
+   ],
+   "startDateTime": "2026-11-05T22:00:00Z",
+   "lastUpdated": "2026-11-05T23:10:26.000Z"
+  }
+ ]
+}

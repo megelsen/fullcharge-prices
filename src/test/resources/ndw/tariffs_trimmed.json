@@ -1,0 +1,702 @@
+[
+ {
+  "id": "ba82cfbc-c7b7-11f1-bb33-0360f0c6c017",
+  "country_code": "NL",
+  "party_id": "ELD",
+  "currency": "EUR",
+  "type": null,
+  "tariff_alt_url": null,
+  "min_price": null,
+  "max_price": null,
+  "elements": [
+   {
+    "price_components": [
+     {
+      "type": "ENERGY",
+      "price": 0.5702,
+      "vat": 21.0,
+      "step_size": 1000
+     }
+    ],
+    "restrictions": null
+   },
+   {
+    "price_components": [
+     {
+      "type": "TIME",
+      "price": 19.8347,
+      "vat": 21.0,
+      "step_size": 60
+     },
+     {
+      "type": "PARKING_TIME",
+      "price": 19.8347,
+      "vat": 21.0,
+      "step_size": 60
+     }
+    ],
+    "restrictions": {
+     "start_time": null,
+     "end_time": null,
+     "start_date": null,
+     "end_date": null,
+     "min_kwh": null,
+     "max_kwh": null,
+     "min_current": null,
+     "max_current": null,
+     "min_power": null,
+     "max_power": null,
+     "min_duration": 3600,
+     "max_duration": null,
+     "day_of_week": null,
+     "reservation": null
+    }
+   }
+  ],
+  "start_date_time": null,
+  "end_date_time": null,
+  "last_updated": "2026-10-22T14:10:48Z"
+ },
+ {
+  "id": "442",
+  "country_code": "NL",
+  "party_id": "QWC",
+  "currency": "EUR",
+  "type": "AD_HOC_PAYMENT",
+  "tariff_alt_url": null,
+  "min_price": null,
+  "max_price": null,
+  "elements": [
+   {
+    "price_components": [
+     {
+      "type": "PARKING_TIME",
+      "price": 0.25,
+      "vat": 0.0,
+      "step_size": 1
+     },
+     {
+      "type": "TIME",
+      "price": 0.25,
+      "vat": 0.0,
+      "step_size": 1
+     },
+     {
+      "type": "ENERGY",
+      "price": 0.55,
+      "vat": 0.0,
+      "step_size": 1
+     }
+    ],
+    "restrictions": {
+     "start_time": null,
+     "end_time": null,
+     "start_date": null,
+     "end_date": null,
+     "min_kwh": null,
+     "max_kwh": null,
+     "min_current": null,
+     "max_current": null,
+     "min_power": null,
+     "max_power": null,
+     "min_duration": null,
+     "max_duration": null,
+     "day_of_week": null,
+     "reservation": null
+    }
+   }
+  ],
+  "start_date_time": "2020-01-01T00:00:00Z",
+  "end_date_time": null,
+  "last_updated": "2026-10-16T00:00:00Z"
+ },
+ {
+  "id": "6648d584-be4b-496d-a451-c5932ff58507",
+  "country_code": "US",
+  "party_id": "TSL",
+  "currency": "EUR",
+  "type": null,
+  "tariff_alt_url": "https://www.tesla.com/support/charging/supercharger/fees",
+  "min_price": null,
+  "max_price": null,
+  "elements": [
+   {
+    "price_components": [
+     {
+      "type": "ENERGY",
+      "price": 0.41,
+      "vat": null,
+      "step_size": 1
+     }
+    ],
+    "restrictions": {
+     "start_time": "00:00",
+     "end_time": "04:00",
+     "start_date": null,
+     "end_date": null,
+     "min_kwh": null,
+     "max_kwh": null,
+     "min_current": null,
+     "max_current": null,
+     "min_power": null,
+     "max_power": null,
+     "min_duration": null,
+     "max_duration": null,
+     "day_of_week": [
+      "MONDAY",
+      "TUESDAY",
+      "WEDNESDAY",
+      "THURSDAY",
+      "FRIDAY",
+      "SATURDAY",
+      "SUNDAY"
+     ],
+     "reservation": null
+    }
+   },
+   {
+    "price_components": [
+     {
+      "type": "ENERGY",
+      "price": 0.41,
+      "vat": null,
+      "step_size": 1
+     }
+    ],
+    "restrictions": {
+     "start_time": "04:00",
+     "end_time": "09:00",
+     "start_date": null,
+     "end_date": null,
+     "min_kwh": null,
+     "max_kwh": null,
+     "min_current": null,
+     "max_current": null,
+     "min_power": null,
+     "max_power": null,
+     "min_duration": null,
+     "max_duration": null,
+     "day_of_week": [
+      "MONDAY",
+      "TUESDAY",
+      "WEDNESDAY",
+      "THURSDAY",
+      "FRIDAY",
+      "SATURDAY",
+      "SUNDAY"
+     ],
+     "reservation": null
+    }
+   },
+   {
+    "price_components": [
+     {
+      "type": "ENERGY",
+      "price": 0.56,
+      "vat": null,
+      "step_size": 1
+     }
+    ],
+    "restrictions": {
+     "start_time": "09:00",
+     "end_time": "22:00",
+     "start_date": null,
+     "end_date": null,
+     "min_kwh": null,
+     "max_kwh": null,
+     "min_current": null,
+     "max_current": null,
+     "min_power": null,
+     "max_power": null,
+     "min_duration": null,
+     "max_duration": null,
+     "day_of_week": [
+      "MONDAY",
+      "TUESDAY",
+      "WEDNESDAY",
+      "THURSDAY",
+      "FRIDAY",
+      "SATURDAY",
+      "SUNDAY"
+     ],
+     "reservation": null
+    }
+   },
+   {
+    "price_components": [
+     {
+      "type": "ENERGY",
+      "price": 0.41,
+      "vat": null,
+      "step_size": 1
+     }
+    ],
+    "restrictions": {
+     "start_time": "22:00",
+     "end_time": "00:00",
+     "start_date": null,
+     "end_date": null,
+     "min_kwh": null,
+     "max_kwh": null,
+     "min_current": null,
+     "max_current": null,
+     "min_power": null,
+     "max_power": null,
+     "min_duration": null,
+     "max_duration": null,
+     "day_of_week": [
+      "MONDAY",
+      "TUESDAY",
+      "WEDNESDAY",
+      "THURSDAY",
+      "FRIDAY",
+      "SATURDAY",
+      "SUNDAY"
+     ],
+     "reservation": null
+    }
+   },
+   {
+    "price_components": [
+     {
+      "type": "ENERGY",
+      "price": 0.56,
+      "vat": null,
+      "step_size": 1
+     }
+    ],
+    "restrictions": null
+   }
+  ],
+  "start_date_time": "2026-11-05T23:00:00Z",
+  "end_date_time": null,
+  "last_updated": "2026-11-06T02:40:33Z"
+ },
+ {
+  "id": "431",
+  "country_code": "NL",
+  "party_id": "UFC",
+  "currency": "EUR",
+  "type": null,
+  "tariff_alt_url": null,
+  "min_price": null,
+  "max_price": null,
+  "elements": [
+   {
+    "price_components": [
+     {
+      "type": "TIME",
+      "price": 0.0,
+      "vat": 0.0,
+      "step_size": 1
+     }
+    ],
+    "restrictions": {
+     "start_time": null,
+     "end_time": null,
+     "start_date": null,
+     "end_date": null,
+     "min_kwh": null,
+     "max_kwh": null,
+     "min_current": null,
+     "max_current": null,
+     "min_power": null,
+     "max_power": null,
+     "min_duration": 0,
+     "max_duration": null,
+     "day_of_week": null,
+     "reservation": null
+    }
+   },
+   {
+    "price_components": [
+     {
+      "type": "TIME",
+      "price": 1.4876,
+      "vat": 21.0,
+      "step_size": 60
+     },
+     {
+      "type": "ENERGY",
+      "price": 0.5372,
+      "vat": 21.0,
+      "step_size": 1
+     }
+    ],
+    "restrictions": null
+   }
+  ],
+  "start_date_time": null,
+  "end_date_time": null,
+  "last_updated": "2026-05-19T14:26:40Z"
+ },
+ {
+  "id": "NL*TCB_NL_059",
+  "country_code": "NL",
+  "party_id": "TCB",
+  "currency": "EUR",
+  "type": null,
+  "tariff_alt_url": null,
+  "min_price": null,
+  "max_price": null,
+  "elements": [
+   {
+    "price_components": [
+     {
+      "type": "ENERGY",
+      "price": 0.5868,
+      "vat": 0.21,
+      "step_size": 1000
+     }
+    ],
+    "restrictions": {
+     "start_time": null,
+     "end_time": null,
+     "start_date": "2026-08-10",
+     "end_date": null,
+     "min_kwh": null,
+     "max_kwh": null,
+     "min_current": null,
+     "max_current": null,
+     "min_power": null,
+     "max_power": null,
+     "min_duration": null,
+     "max_duration": null,
+     "day_of_week": null,
+     "reservation": null
+    }
+   }
+  ],
+  "start_date_time": null,
+  "end_date_time": null,
+  "last_updated": "2026-08-10T09:30:38Z"
+ },
+ {
+  "id": "NL0-ALL-JUMBO-PUBLIC",
+  "country_code": "NL",
+  "party_id": "PFG",
+  "currency": "EUR",
+  "type": null,
+  "tariff_alt_url": null,
+  "min_price": null,
+  "max_price": null,
+  "elements": [
+   {
+    "price_components": [
+     {
+      "type": "ENERGY",
+      "price": 0.79,
+      "vat": 21.0,
+      "step_size": 1
+     }
+    ],
+    "restrictions": {
+     "start_time": "01:15",
+     "end_time": "20:30",
+     "start_date": "2026-11-11",
+     "end_date": "2026-11-12",
+     "min_kwh": null,
+     "max_kwh": null,
+     "min_current": null,
+     "max_current": null,
+     "min_power": null,
+     "max_power": null,
+     "min_duration": null,
+     "max_duration": null,
+     "day_of_week": null,
+     "reservation": null
+    }
+   },
+   {
+    "price_components": [
+     {
+      "type": "ENERGY",
+      "price": 0.86,
+      "vat": 21.0,
+      "step_size": 1
+     }
+    ],
+    "restrictions": {
+     "start_time": "05:30",
+     "end_time": "05:45",
+     "start_date": "2026-11-11",
+     "end_date": "2026-11-11",
+     "min_kwh": null,
+     "max_kwh": null,
+     "min_current": null,
+     "max_current": null,
+     "min_power": null,
+     "max_power": null,
+     "min_duration": null,
+     "max_duration": null,
+     "day_of_week": null,
+     "reservation": null
+    }
+   },
+   {
+    "price_components": [
+     {
+      "type": "ENERGY",
+      "price": 0.82,
+      "vat": 21.0,
+      "step_size": 1
+     }
+    ],
+    "restrictions": {
+     "start_time": "06:00",
+     "end_time": "06:15",
+     "start_date": "2026-11-12",
+     "end_date": "2026-11-12",
+     "min_kwh": null,
+     "max_kwh": null,
+     "min_current": null,
+     "max_current": null,
+     "min_power": null,
+     "max_power": null,
+     "min_duration": null,
+     "max_duration": null,
+     "day_of_week": null,
+     "reservation": null
+    }
+   },
+   {
+    "price_components": [
+     {
+      "type": "ENERGY",
+      "price": 0.81,
+      "vat": 21.0,
+      "step_size": 1
+     }
+    ],
+    "restrictions": {
+     "start_time": "10:00",
+     "end_time": "10:15",
+     "start_date": "2026-11-12",
+     "end_date": "2026-11-12",
+     "min_kwh": null,
+     "max_kwh": null,
+     "min_current": null,
+     "max_current": null,
+     "min_power": null,
+     "max_power": null,
+     "min_duration": null,
+     "max_duration": null,
+     "day_of_week": null,
+     "reservation": null
+    }
+   },
+   {
+    "price_components": [
+     {
+      "type": "ENERGY",
+      "price": 0.8,
+      "vat": 21.0,
+      "step_size": 1
+     }
+    ],
+    "restrictions": {
+     "start_time": "05:00",
+     "end_time": "05:15",
+     "start_date": "2026-11-11",
+     "end_date": "2026-11-11",
+     "min_kwh": null,
+     "max_kwh": null,
+     "min_current": null,
+     "max_current": null,
+     "min_power": null,
+     "max_power": null,
+     "min_duration": null,
+     "max_duration": null,
+     "day_of_week": null,
+     "reservation": null
+    }
+   }
+  ],
+  "start_date_time": null,
+  "end_date_time": null,
+  "last_updated": "2026-11-11T23:33:52Z"
+ },
+ {
+  "id": "t-60b4af5e5984608dec2d64d2-1",
+  "country_code": "NL",
+  "party_id": "EFL",
+  "currency": "EUR",
+  "type": null,
+  "tariff_alt_url": null,
+  "min_price": null,
+  "max_price": null,
+  "elements": [
+   {
+    "price_components": [
+     {
+      "type": "ENERGY",
+      "price": 0.4953,
+      "vat": null,
+      "step_size": 1
+     }
+    ],
+    "restrictions": {
+     "start_time": "00:00",
+     "end_time": "01:00",
+     "start_date": "2026-11-11",
+     "end_date": "2026-11-12",
+     "min_kwh": null,
+     "max_kwh": null,
+     "min_current": null,
+     "max_current": null,
+     "min_power": null,
+     "max_power": null,
+     "min_duration": null,
+     "max_duration": null,
+     "day_of_week": null,
+     "reservation": null
+    }
+   },
+   {
+    "price_components": [
+     {
+      "type": "ENERGY",
+      "price": 0.4879,
+      "vat": null,
+      "step_size": 1
+     }
+    ],
+    "restrictions": {
+     "start_time": "01:00",
+     "end_time": "02:00",
+     "start_date": "2026-11-11",
+     "end_date": "2026-11-12",
+     "min_kwh": null,
+     "max_kwh": null,
+     "min_current": null,
+     "max_current": null,
+     "min_power": null,
+     "max_power": null,
+     "min_duration": null,
+     "max_duration": null,
+     "day_of_week": null,
+     "reservation": null
+    }
+   },
+   {
+    "price_components": [
+     {
+      "type": "ENERGY",
+      "price": 0.4947,
+      "vat": null,
+      "step_size": 1
+     }
+    ],
+    "restrictions": {
+     "start_time": "00:00",
+     "end_time": "01:00",
+     "start_date": "2026-11-12",
+     "end_date": "2026-11-13",
+     "min_kwh": null,
+     "max_kwh": null,
+     "min_current": null,
+     "max_current": null,
+     "min_power": null,
+     "max_power": null,
+     "min_duration": null,
+     "max_duration": null,
+     "day_of_week": null,
+     "reservation": null
+    }
+   },
+   {
+    "price_components": [
+     {
+      "type": "ENERGY",
+      "price": 0.4896,
+      "vat": null,
+      "step_size": 1
+     }
+    ],
+    "restrictions": {
+     "start_time": "01:00",
+     "end_time": "02:00",
+     "start_date": "2026-11-12",
+     "end_date": "2026-11-13",
+     "min_kwh": null,
+     "max_kwh": null,
+     "min_current": null,
+     "max_current": null,
+     "min_power": null,
+     "max_power": null,
+     "min_duration": null,
+     "max_duration": null,
+     "day_of_week": null,
+     "reservation": null
+    }
+   },
+   {
+    "price_components": [
+     {
+      "type": "FLAT",
+      "price": 0.0,
+      "vat": null,
+      "step_size": 1
+     },
+     {
+      "type": "TIME",
+      "price": 0.0,
+      "vat": null,
+      "step_size": 1
+     },
+     {
+      "type": "ENERGY",
+      "price": 0.7923,
+      "vat": null,
+      "step_size": 1
+     }
+    ],
+    "restrictions": null
+   }
+  ],
+  "start_date_time": null,
+  "end_date_time": null,
+  "last_updated": "2026-11-11T23:15:47.410Z"
+ },
+ {
+  "id": "2000013217-2000011292",
+  "country_code": "NL",
+  "party_id": "NUO",
+  "currency": "EUR",
+  "type": "REGULAR",
+  "tariff_alt_url": null,
+  "min_price": null,
+  "max_price": null,
+  "elements": [
+   {
+    "price_components": [
+     {
+      "type": "ENERGY",
+      "price": 0.64,
+      "vat": 21.0,
+      "step_size": 1
+     }
+    ],
+    "restrictions": {
+     "start_time": null,
+     "end_time": null,
+     "start_date": "2025-02-01",
+     "end_date": null,
+     "min_kwh": null,
+     "max_kwh": null,
+     "min_current": null,
+     "max_current": null,
+     "min_power": null,
+     "max_power": null,
+     "min_duration": null,
+     "max_duration": null,
+     "day_of_week": null,
+     "reservation": null
+    }
+   }
+  ],
+  "start_date_time": null,
+  "end_date_time": null,
+  "last_updated": "2026-11-12T01:30:05Z"
+ }
+]

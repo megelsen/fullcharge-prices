@@ -1,0 +1,650 @@
+{
+ "pagination": {
+  "limit": 9
+ },
+ "modifiedAt": "2026-11-12T18:47:37.850Z",
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     23.663525,
+     61.516327
+    ]
+   },
+   "properties": {
+    "id": "e8756dcc-83e7-11f0-a2d0-42010aa400b8",
+    "name": "Allego - Kruunukaluste Taninkatu 2 Tampere",
+    "parkingType": "PARKING_LOT",
+    "chargingWhenClosed": true,
+    "operator": {
+     "id": "FI*ALL",
+     "partyId": "ALL",
+     "countryCode": "FI",
+     "details": {
+      "name": "Allego",
+      "website": "https://www.allego.eu"
+     }
+    },
+    "address": {
+     "street": "Taninkatu 2",
+     "city": "Tampere",
+     "postalCode": "33400",
+     "countryCode": "FIN"
+    },
+    "createdAt": "2025-11-10T12:27:26.545Z",
+    "modifiedAt": "2026-11-12T05:05:16.548Z",
+    "evses": [
+     {
+      "id": "FI*ALL*EGO0010101",
+      "capabilities": [
+       "CREDIT_CARD_PAYABLE",
+       "REMOTE_START_STOP_CAPABLE",
+       "RFID_READER"
+      ],
+      "createdAt": "2025-11-10T12:27:26.670Z",
+      "modifiedAt": "2026-11-12T05:05:16.514Z",
+      "connectors": [
+       {
+        "powerType": "DC",
+        "standard": "IEC_62196_T2_COMBO",
+        "format": "CABLE",
+        "capabilities": null,
+        "maxVoltage": 1000,
+        "maxAmperage": 150,
+        "maxElectricPower": 150000,
+        "tariffIds": [
+         "2980f6fab5ace89faf8a38025a53e6e6"
+        ],
+        "createdAt": "2025-11-10T12:27:26.899Z",
+        "modifiedAt": "2026-11-12T05:05:16.548Z"
+       }
+      ]
+     },
+     {
+      "id": "FI*ALL*EGO0010102",
+      "capabilities": [
+       "CREDIT_CARD_PAYABLE",
+       "REMOTE_START_STOP_CAPABLE",
+       "RFID_READER"
+      ],
+      "createdAt": "2025-11-10T12:27:26.670Z",
+      "modifiedAt": "2026-11-12T05:05:16.514Z",
+      "connectors": [
+       {
+        "powerType": "DC",
+        "standard": "IEC_62196_T2_COMBO",
+        "format": "CABLE",
+        "capabilities": null,
+        "maxVoltage": 1000,
+        "maxAmperage": 150,
+        "maxElectricPower": 150000,
+        "tariffIds": [
+         "2980f6fab5ace89faf8a38025a53e6e6"
+        ],
+        "createdAt": "2025-11-10T12:27:26.899Z",
+        "modifiedAt": "2026-11-12T05:05:16.548Z"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     25.871105,
+     62.562941
+    ]
+   },
+   "properties": {
+    "id": "191cadc3ee4b8b785300efe20360ef5a",
+    "name": "Suolahden Jäähalli",
+    "chargingWhenClosed": true,
+    "operator": {
+     "id": "FI*PLG",
+     "partyId": "PLG",
+     "countryCode": "FI",
+     "details": {
+      "name": "Plugit Finland Oy"
+     }
+    },
+    "address": {
+     "street": "Sumiaistentie 27",
+     "city": "Äänekoski",
+     "postalCode": "44200",
+     "countryCode": "FIN"
+    },
+    "createdAt": "2026-05-18T11:44:51.025Z",
+    "modifiedAt": "2026-11-12T10:18:29.281Z",
+    "evses": [
+     {
+      "id": "FI*PLG*E25239",
+      "capabilities": [
+       "REMOTE_START_STOP_CAPABLE",
+       "RFID_READER",
+       "START_SESSION_CONNECTOR_REQUIRED",
+       "UNLOCK_CAPABLE",
+       "CHIP_CARD_SUPPORT",
+       "CONTACTLESS_CARD_SUPPORT",
+       "CREDIT_CARD_PAYABLE",
+       "DEBIT_CARD_PAYABLE",
+       "PED_TERMINAL"
+      ],
+      "createdAt": "2026-05-18T11:44:51.037Z",
+      "modifiedAt": "2026-11-12T10:18:29.281Z",
+      "connectors": [
+       {
+        "powerType": "DC",
+        "standard": "IEC_62196_T2_COMBO",
+        "format": "CABLE",
+        "capabilities": null,
+        "maxVoltage": 0,
+        "maxAmperage": 0,
+        "maxElectricPower": 120000,
+        "tariffIds": [
+         "4d28209ef4efdea0f3f6255770223b48"
+        ],
+        "createdAt": "2026-05-18T11:44:51.056Z",
+        "modifiedAt": "2026-11-12T05:06:04.656Z"
+       }
+      ]
+     },
+     {
+      "id": "FI*PLG*E26278",
+      "capabilities": [
+       "REMOTE_START_STOP_CAPABLE",
+       "RFID_READER",
+       "START_SESSION_CONNECTOR_REQUIRED",
+       "UNLOCK_CAPABLE",
+       "CHIP_CARD_SUPPORT",
+       "CONTACTLESS_CARD_SUPPORT",
+       "CREDIT_CARD_PAYABLE",
+       "DEBIT_CARD_PAYABLE",
+       "PED_TERMINAL"
+      ],
+      "createdAt": "2026-05-18T11:44:51.037Z",
+      "modifiedAt": "2026-11-12T05:05:58.576Z",
+      "connectors": [
+       {
+        "powerType": "AC_3_PHASE",
+        "standard": "IEC_62196_T2",
+        "format": "SOCKET",
+        "capabilities": null,
+        "maxVoltage": 0,
+        "maxAmperage": 0,
+        "maxElectricPower": 22000,
+        "tariffIds": [
+         "dbb5e2f7153c88320c12e50cff4bb3bd"
+        ],
+        "createdAt": "2026-05-18T11:44:51.056Z",
+        "modifiedAt": "2026-11-12T05:06:04.656Z"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     24.662369,
+     60.168584
+    ]
+   },
+   "properties": {
+    "id": "FI-ABC-639150449713843325",
+    "name": "S-market Nöykkiö Espoo",
+    "parkingType": "PARKING_LOT",
+    "operator": {
+     "id": "FI*ABC",
+     "partyId": "ABC",
+     "countryCode": "FI",
+     "details": {
+      "name": "ABC",
+      "website": "https://www.abcasemat.fi/sahkoauton-lataus"
+     }
+    },
+    "address": {
+     "street": "Nöykkiönniitty 2",
+     "city": "Espoo",
+     "postalCode": "02330",
+     "countryCode": "FIN"
+    },
+    "createdAt": "2026-05-22T11:10:04.088Z",
+    "modifiedAt": "2026-11-12T18:34:19.435Z",
+    "evses": [
+     {
+      "id": "FI*ABC*E0222*1012*1",
+      "capabilities": [],
+      "createdAt": "2026-05-22T11:10:04.931Z",
+      "modifiedAt": "2026-11-12T13:08:14.896Z",
+      "connectors": [
+       {
+        "powerType": "DC",
+        "standard": "CHADEMO",
+        "format": "CABLE",
+        "capabilities": null,
+        "maxVoltage": 400,
+        "maxAmperage": 125,
+        "maxElectricPower": 50000,
+        "tariffIds": [
+         "FIABCTTRF639246403487269896"
+        ],
+        "createdAt": "2026-05-22T11:10:04.964Z",
+        "modifiedAt": "2026-11-12T05:11:04.828Z"
+       }
+      ]
+     },
+     {
+      "id": "FI*ABC*E0222*1012*8",
+      "capabilities": [],
+      "createdAt": "2026-05-22T11:10:04.101Z",
+      "modifiedAt": "2026-11-12T17:13:26.629Z",
+      "connectors": [
+       {
+        "powerType": "AC_3_PHASE",
+        "standard": "IEC_62196_T2",
+        "format": "SOCKET",
+        "capabilities": null,
+        "maxVoltage": 230,
+        "maxAmperage": 32,
+        "maxElectricPower": 22000,
+        "tariffIds": [
+         "FIABCTTRF639246403493413048"
+        ],
+        "createdAt": "2026-05-22T11:10:04.116Z",
+        "modifiedAt": "2026-11-12T05:11:04.828Z"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     23.36997,
+     60.9243
+    ]
+   },
+   "properties": {
+    "id": "532",
+    "name": "Humppilan kunta",
+    "operator": {
+     "id": "FI*WTY",
+     "partyId": "WTY",
+     "countryCode": "FI",
+     "details": {
+      "name": "Wattery",
+      "website": "https://wattery.io"
+     }
+    },
+    "address": {
+     "street": "Kisakuja 2",
+     "city": "Humppila",
+     "postalCode": "31640",
+     "countryCode": "FIN"
+    },
+    "createdAt": "2026-05-21T12:05:35.342Z",
+    "modifiedAt": "2026-11-12T17:47:05.690Z",
+    "evses": [
+     {
+      "id": "FI*WTY*E11939*1",
+      "capabilities": [
+       "REMOTE_START_STOP_CAPABLE"
+      ],
+      "createdAt": "2026-05-21T12:05:35.851Z",
+      "modifiedAt": "2026-11-12T17:46:43.823Z",
+      "connectors": [
+       {
+        "powerType": "AC_3_PHASE",
+        "standard": "IEC_62196_T2",
+        "format": "SOCKET",
+        "capabilities": null,
+        "maxVoltage": 230,
+        "maxAmperage": 32,
+        "maxElectricPower": 22000,
+        "tariffIds": [
+         "FI*WTY*E11939*1-tariff"
+        ],
+        "createdAt": "2026-05-22T12:09:52.122Z",
+        "modifiedAt": "2026-11-11T05:26:25.064Z"
+       }
+      ]
+     },
+     {
+      "id": "FI*WTY*E11940*1",
+      "capabilities": [
+       "REMOTE_START_STOP_CAPABLE"
+      ],
+      "createdAt": "2026-05-21T12:05:35.851Z",
+      "modifiedAt": "2026-11-12T17:47:05.690Z",
+      "connectors": [
+       {
+        "powerType": "AC_3_PHASE",
+        "standard": "IEC_62196_T2",
+        "format": "SOCKET",
+        "capabilities": null,
+        "maxVoltage": 230,
+        "maxAmperage": 32,
+        "maxElectricPower": 22000,
+        "tariffIds": [
+         "FI*WTY*E11940*1-tariff"
+        ],
+        "createdAt": "2026-05-22T12:09:52.122Z",
+        "modifiedAt": "2026-11-11T05:26:25.064Z"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     24.706913,
+     60.162654
+    ]
+   },
+   "properties": {
+    "id": "2d8930230406d90841fd5338673a67ac",
+    "name": "Kauppakeskus Merituuli",
+    "chargingWhenClosed": true,
+    "operator": {
+     "id": "FI*KCH",
+     "partyId": "KCH",
+     "countryCode": "FI",
+     "details": {
+      "name": "K Auto Oy"
+     }
+    },
+    "address": {
+     "street": "Isonniitynkuja 2",
+     "city": "Espoo",
+     "postalCode": "02270",
+     "countryCode": "FIN"
+    },
+    "createdAt": "2026-05-27T06:41:36.018Z",
+    "modifiedAt": "2026-11-12T18:38:59.279Z",
+    "evses": [
+     {
+      "id": "FI*KCH*E12237",
+      "capabilities": [
+       "REMOTE_START_STOP_CAPABLE",
+       "RFID_READER",
+       "START_SESSION_CONNECTOR_REQUIRED",
+       "UNLOCK_CAPABLE"
+      ],
+      "createdAt": "2026-05-27T06:41:36.033Z",
+      "modifiedAt": "2026-11-12T17:59:18.541Z",
+      "connectors": [
+       {
+        "powerType": "DC",
+        "standard": "IEC_62196_T2_COMBO",
+        "format": "CABLE",
+        "capabilities": null,
+        "maxVoltage": 0,
+        "maxAmperage": 0,
+        "maxElectricPower": 100000,
+        "tariffIds": [
+         "1d89d30c77fbac735bf9c63fefe0720b"
+        ],
+        "createdAt": "2026-05-27T06:41:36.084Z",
+        "modifiedAt": "2026-10-22T05:52:38.114Z"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     26.010058,
+     61.57936
+    ]
+   },
+   "properties": {
+    "id": "8246",
+    "name": "Neste-lataus Hartola Jari-Pekka",
+    "operator": {
+     "id": "FI*NES",
+     "partyId": "NES",
+     "countryCode": "FI",
+     "details": {
+      "name": "Neste MY Uusiutuva Lataus",
+      "website": "https://www.neste.fi/"
+     }
+    },
+    "address": {
+     "street": "Yhdystie 2",
+     "city": "Hartola",
+     "postalCode": "19600",
+     "countryCode": "FIN"
+    },
+    "createdAt": "2026-04-16T05:22:18.174Z",
+    "modifiedAt": "2026-11-12T18:46:42.554Z",
+    "evses": [
+     {
+      "id": "FI*NES*E8246*4",
+      "capabilities": null,
+      "createdAt": "2026-04-16T05:22:18.297Z",
+      "modifiedAt": "2026-11-12T18:31:14.825Z",
+      "connectors": [
+       {
+        "powerType": "DC",
+        "standard": "IEC_62196_T2_COMBO",
+        "format": "CABLE",
+        "capabilities": null,
+        "maxVoltage": 500,
+        "maxAmperage": 300,
+        "maxElectricPower": 400000,
+        "tariffIds": [
+         "tariff-station-CSLQBCwsbnc"
+        ],
+        "createdAt": "2026-04-16T05:22:18.825Z",
+        "modifiedAt": "2026-11-12T05:15:52.897Z"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     25.691346,
+     62.516792
+    ]
+   },
+   "properties": {
+    "id": "57cd3e9b-0bab-4072-98fa-cdb5e0a0f1db",
+    "name": "Äänekoski, Finland",
+    "chargingWhenClosed": false,
+    "operator": {
+     "id": "FI*TSL",
+     "partyId": "TSL",
+     "countryCode": "FI",
+     "details": {
+      "name": "Tesla"
+     }
+    },
+    "address": {
+     "street": "10, Suonenjoentie",
+     "city": "Äänekoski",
+     "postalCode": "44250",
+     "countryCode": "FIN"
+    },
+    "createdAt": "2026-01-21T05:12:03.799Z",
+    "modifiedAt": "2026-11-12T18:33:40.263Z",
+    "evses": [
+     {
+      "id": "FI*TSL*EA4TUOQ",
+      "capabilities": null,
+      "createdAt": "2026-03-04T05:12:17.388Z",
+      "modifiedAt": "2026-11-12T17:52:35.922Z",
+      "connectors": [
+       {
+        "powerType": "DC",
+        "standard": "IEC_62196_T2_COMBO",
+        "format": "CABLE",
+        "capabilities": null,
+        "maxVoltage": 464,
+        "maxAmperage": 400,
+        "maxElectricPower": 130000,
+        "tariffIds": [
+         "26994fe9-bb0e-4b39-8e3b-50f0609a52a2"
+        ],
+        "createdAt": "2026-03-04T05:12:18.172Z",
+        "modifiedAt": "2026-11-05T23:10:38.647Z"
+       },
+       {
+        "powerType": "DC",
+        "standard": "IEC_62196_T2",
+        "format": "CABLE",
+        "capabilities": null,
+        "maxVoltage": 464,
+        "maxAmperage": 400,
+        "maxElectricPower": 130000,
+        "tariffIds": [
+         "26994fe9-bb0e-4b39-8e3b-50f0609a52a2"
+        ],
+        "createdAt": "2026-03-04T05:12:18.172Z",
+        "modifiedAt": "2026-11-05T23:10:38.647Z"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     24.952292,
+     60.171575
+    ]
+   },
+   "properties": {
+    "id": "FI-HLN-639077898380264278",
+    "name": "Rauhankatu",
+    "parkingType": "PARKING_LOT",
+    "operator": {
+     "id": "FI*HLN",
+     "partyId": "HLN",
+     "countryCode": "FI",
+     "details": {
+      "name": "Helen Oy",
+      "website": "https://www.helen.fi/sahkoauton-lataus/sahkoautojen-julkinen-latausverkosto"
+     }
+    },
+    "address": {
+     "street": "Rauhankatu 17",
+     "city": "Helsinki",
+     "countryCode": "FIN"
+    },
+    "createdAt": "2026-02-27T13:31:58.875Z",
+    "modifiedAt": "2026-11-07T05:57:28.466Z",
+    "evses": [
+     {
+      "id": "FI*HLN*E18118902",
+      "capabilities": [
+       "REMOTE_START_STOP_CAPABLE",
+       "RFID_READER"
+      ],
+      "createdAt": "2026-02-27T13:31:58.887Z",
+      "modifiedAt": "2026-11-07T05:57:28.466Z",
+      "connectors": [
+       {
+        "powerType": "AC_3_PHASE",
+        "standard": "IEC_62196_T2",
+        "format": "SOCKET",
+        "capabilities": null,
+        "maxVoltage": 230,
+        "maxAmperage": 32,
+        "maxElectricPower": 22000,
+        "tariffIds": [
+         "FIHLNTTRF639077933404301694"
+        ],
+        "createdAt": "2026-02-27T13:31:58.907Z",
+        "modifiedAt": "2026-11-06T13:27:58.874Z"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     23.782743,
+     61.353649
+    ]
+   },
+   "properties": {
+    "id": "345937",
+    "name": "Lempäälä - Saikantalo",
+    "operator": {
+     "id": "FI*001",
+     "partyId": "001",
+     "countryCode": "FI",
+     "details": {
+      "name": "Virta Global Finland",
+      "website": "https://www.virta.global/fi/"
+     }
+    },
+    "address": {
+     "street": "Kuljuntie 326",
+     "city": "Lempäälä",
+     "postalCode": "37550",
+     "countryCode": "FIN"
+    },
+    "createdAt": "2026-10-13T08:26:15.842Z",
+    "modifiedAt": "2026-11-12T16:54:41.742Z",
+    "evses": [
+     {
+      "id": "FI*001*E271378",
+      "capabilities": [
+       "RFID_READER",
+       "REMOTE_START_STOP_CAPABLE"
+      ],
+      "createdAt": "2026-10-13T08:26:19.116Z",
+      "modifiedAt": "2026-11-12T02:04:08.617Z",
+      "connectors": [
+       {
+        "powerType": "AC_3_PHASE",
+        "standard": "IEC_62196_T2",
+        "format": "SOCKET",
+        "capabilities": null,
+        "maxVoltage": 230,
+        "maxAmperage": 16,
+        "maxElectricPower": 11000,
+        "tariffIds": null,
+        "createdAt": "2026-10-13T08:26:34.804Z",
+        "modifiedAt": "2026-10-13T08:26:34.804Z"
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}
