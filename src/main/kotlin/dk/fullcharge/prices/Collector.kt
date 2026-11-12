@@ -192,7 +192,10 @@ object Sources {
             if (tc !in 200..299 || tariffs == null) throw IOException("NDW tariffs HTTP $tc")
             val out = ArrayList<AfirSite>()
             val lc = http.download(OcpiTariffs.NDW_LOCATIONS_URL, emptyMap()) {
-                OcpiTariffs.forEachSite(ungzip(it).reader(Charsets.UTF_8), tariffs!!, OcpiTariffs.NDW_SOURCE, "NL") { s -> out += s }
+                // acceptRegular (owner, 2026-11-12): Vattenfall InCharge and six smaller CPOs publish their only
+                // tariff as REGULAR; NDW maps the AFIR ad-hoc price to the Tariffs module without a type filter.
+                // Used only where a connector has no AD_HOC_PAYMENT or untyped tariff.
+                OcpiTariffs.forEachSite(ungzip(it).reader(Charsets.UTF_8), tariffs!!, OcpiTariffs.NDW_SOURCE, "NL", acceptRegular = true) { s -> out += s }
             }
             if (lc !in 200..299) throw IOException("NDW locations HTTP $lc")
             out
