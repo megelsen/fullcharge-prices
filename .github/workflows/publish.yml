@@ -2,9 +2,14 @@ name: Publish price tiles
 
 # Hourly: Danish dynamic prices change every 15 min and tomorrow's appear about 13:00 local.
 # Germany is fetched again after 3 h, Switzerland after 12 h (see Sources in Collector.kt).
+# GitHub starts the hourly schedule only every few hours when busy (seen 2026-11-14…16), so two fixed
+# runs catch tomorrow's day-ahead prices: 12:05 and 13:05 UTC = 14:05 Danish time in summer / in winter
+# (GitHub cron is UTC only).
 on:
   schedule:
     - cron: "17 * * * *"
+    - cron: "5 12 * * *"
+    - cron: "5 13 * * *"
   workflow_dispatch:
 
 permissions:
